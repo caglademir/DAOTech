@@ -2,19 +2,19 @@ import React from 'react'
 
 export default function NavBar() {
     return (
-        <div >
+        <div className=' '>
 
-            <nav className="flex justify-items-stretch  flex-wrap p-8 bg-sky-800- gap-x-[57%]  ">
+            <nav className="flex  p-8   gap-x-[70%]  ">
 
                 <div className="flex items-center flex-shrink-0 text-white">
 
-                    <span className="font-semibold text-4xl tracking-tight">DOA Tech</span>
+                    <span className="font-semibold text-7xl tracking-tight">DAOTech</span>
                 </div>
 
 
 
-                <div id='button' className="flex " >
-                    <button className="flex items-center bg-gradient-to-r from-blue-500 to-blue-800 hover:border-2 border-blue-400 text-white font-bold py-2 px-3 rounded-full"
+                <div id='button' className="flex   w-[300px] " >
+                    <button className="flex items-center bg-gradient-to-r from-blue-500 to-blue-800 hover:border-2 border-blue-400 text-white font-bold py-2 px-3   rounded-full"
                     >
                         Connect to Phantom
                         <img
