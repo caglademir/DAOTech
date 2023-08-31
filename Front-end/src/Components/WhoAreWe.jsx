@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function WhoWeAre() {
+export default function WhoAreWe() {
     return (
         <div>
             <div className='p-24 mt-4 mb-4 '>
@@ -18,15 +18,10 @@ export default function WhoWeAre() {
                         <img src='src/img/dao-2.png'></img>
                     </div>
 
-
                 </div>
 
-
-
-
-
             </div>
-
+            <hr className='opacity-20 ml-20 mr-20 '></hr>
         </div>
     )
 }

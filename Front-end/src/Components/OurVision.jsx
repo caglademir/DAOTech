@@ -2,6 +2,9 @@ import React from 'react'
 
 export default function OurVision() {
     return (
+        <div>
+
+
         <div className='p-24 mt-4 mb-4'>
             <h2 className='text-center text-8xl font-medium text-sky-200'>Our Vision</h2>
             <div className='grid grid-cols-3 gap-16 mt-16 '>
@@ -16,6 +19,8 @@ export default function OurVision() {
 
                     </div>
 
+        </div>
+        <hr className='opacity-20 ml-20 mr-20 '></hr>
         </div>
     )
 }

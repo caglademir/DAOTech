@@ -46,7 +46,11 @@ export default function NavBar() {
                     </a>
                     <a href="#responsive-header"
                         className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 hover:text-xl mr-12">
-                        Contact
+                        Platform Features
+                    </a>
+                    <a href="#responsive-header"
+                        className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 hover:text-xl mr-12">
+                        Contact Us
                     </a>
                 </div>
             </nav>

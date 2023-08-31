@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function RoadMap() {
     return (
-        <div>
-            <h2 className='text-center text-8xl font-medium text-sky-200 mb-4'>RoadMap</h2>
+        <div className=''>
+            <h2 className='text-center text-8xl font-medium text-sky-200 mt-16'>RoadMap</h2>
 
             <div class="min-h-screen ">
 
@@ -12,7 +12,7 @@ export default function RoadMap() {
                         <div class="flex flex-row w-full hover:text-xl  text-right">
 
                             <div class="w-2/5 px-2 py-10">
-                                <div class="flex flex-col w-full rounded-lg shadow bg-sky-600 hover:bg-sky-500 px-4 py-5">
+                                <div class="flex flex-col w-full rounded-lg shadow bg-sky-500 px-4 py-5">
                                     <div class="text-sky-950 text-2xl mb-2 ">
                                         <div class="font-bold">
                                             Building the Foundation
@@ -57,7 +57,7 @@ export default function RoadMap() {
                             </div>
 
                             <div class="w-2/5 px-2 py-10 ">
-                                <div class="flex flex-col w-full rounded-lg shadow bg-sky-600  hover:bg-sky-500 px-4 py-5">
+                                <div class="flex flex-col w-full rounded-lg shadow bg-sky-500 px-4 py-5">
                                     <div class="text-sky-950 text-2xl mb-2 flex justify-between">
                                         <div class="font-bold">
                                             Strengthening Communication and Collaboration
@@ -75,7 +75,7 @@ export default function RoadMap() {
                         <div class="flex flex-row w-full hover:text-xl  text-right">
 
                             <div class="w-2/5 px-2 py-10">
-                                <div class="flex flex-col w-full rounded-lg shadow bg-sky-600 hover:bg-sky-500 px-4 py-5">
+                                <div class="flex flex-col w-full rounded-lg shadow bg-sky-500 px-4 py-5">
                                     <div class="text-sky-950 text-2xl mb-2 ">
                                         <div class="font-bold">
                                             Smart Contracts and Advanced Voting
@@ -120,7 +120,7 @@ export default function RoadMap() {
                             </div>
 
                             <div class="w-2/5 px-2 py-10 ">
-                                <div class="flex flex-col w-full rounded-lg shadow bg-sky-600  hover:bg-sky-500 px-4 py-5">
+                                <div class="flex flex-col w-full rounded-lg shadow bg-sky-500 px-4 py-5">
                                     <div class="text-sky-950 text-2xl mb-2 flex justify-between">
                                         <div class="font-bold">
                                             Innovation and Accessibility
@@ -137,7 +137,7 @@ export default function RoadMap() {
                         <div class="flex flex-row w-full hover:text-xl text-right">
 
                             <div class="w-2/5 px-2 py-10">
-                                <div class="flex flex-col w-full rounded-lg shadow bg-sky-600 hover:bg-sky-500 px-4 py-5">
+                                <div class="flex flex-col w-full rounded-lg shadow bg-sky-500 px-4 py-5">
                                     <div class="text-sky-950 text-2xl mb-2 ">
                                         <div class="font-bold">
                                             Governance and Long-Term Growth
@@ -173,6 +173,7 @@ export default function RoadMap() {
 
                 </div>
             </div>
+            <hr className='opacity-20 ml-20 mr-20 mt-16'></hr>
         </div>
     )
 }
