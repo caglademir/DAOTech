@@ -8,6 +8,7 @@ import Contact from "./Components/Contact"
 import PlatformFeatures from "./Components/PlatformFeatures"
 import Modal from "./Modals/Modal"
 import Ingredients from "./Components/Ingredients"
+import Acoordion from "./Components/Acoordion"
 function App() {
     
   const [ isOpen,setIsOpen] = useState(false);
@@ -22,8 +23,8 @@ function App() {
           <PlatformFeatures></PlatformFeatures>
           <OurVision></OurVision>
           <RoadMap></RoadMap>
+          <Acoordion></Acoordion>
           <Contact></Contact>
-          <Ingredients></Ingredients>
           <Footer></Footer>
           
           <div>

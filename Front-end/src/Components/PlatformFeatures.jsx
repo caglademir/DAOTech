@@ -7,11 +7,11 @@ export default function
     return (
         <div>
 
-            <div className='p-24 mt-4 mb-4'>
+            <div className='p-16 mt-4 mb-4'>
 
-                <h2 className='text-center text-8xl font-medium text-sky-200 p-8 mb-10'>Platform Features</h2>
+                <h2 className='text-center text-8xl font-medium text-sky-200 p-4 mb-10'>Platform Features</h2>
 
-                <div className='grid grid-cols-5 gap-6'>
+                <div className='grid grid-cols-5 gap-2'>
 
                     <div className='bg-white/20 rounded-lg p-8 grid rows-3 border hover:border-4 border-sky-400'>
                         <div
