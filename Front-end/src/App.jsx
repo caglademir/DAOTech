@@ -6,7 +6,8 @@ import OurVision from "./Components/OurVision"
 import Footer from "./Components/Footer"
 import Contact from "./Components/Contact"
 import PlatformFeatures from "./Components/PlatformFeatures"
-import Model from "./Components/Model"
+import Modal from "./Modals/Modal"
+import Ingredients from "./Components/Ingredients"
 function App() {
     
   const [ isOpen,setIsOpen] = useState(false);
@@ -16,16 +17,18 @@ function App() {
       <div className="h-full bg-gradient-to-r from-gray-950 via-sky-800 to-gray-950">
            
           <NavBar setIsOpen={setIsOpen}></NavBar>
+          <Ingredients></Ingredients>
           <WhoAreWe></WhoAreWe>
-          <OurVision></OurVision>
           <PlatformFeatures></PlatformFeatures>
+          <OurVision></OurVision>
           <RoadMap></RoadMap>
           <Contact></Contact>
+          <Ingredients></Ingredients>
           <Footer></Footer>
           
           <div>
             {!!isOpen  && 
-            <Model setIsOpen = {setIsOpen}></Model>
+            <Modal setIsOpen = {setIsOpen}></Modal>
             }
           </div>
           

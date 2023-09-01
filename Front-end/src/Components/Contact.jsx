@@ -8,30 +8,30 @@ export default function Contact() {
             <ul
                 class="mb-5 flex list-none flex-col flex-wrap pl-0 md:flex-row ml-20 mr-20"
                 >
-                <li role="presentation" class="flex-auto text-center">
+                <li role="presentation" class="flex-auto text-center flex justify-center">
                     <a
                         href="*"
-                        class="my-2 block rounded-lg bg-sky-500 px-7 pb-3.5 pt-4 text-lg hover:text-2xl hover:border-2 border-sky-400 font-bold uppercase text-white md:mr-4"
+                        class="w-[70%] my-2 block rounded-lg bg-sky-500 px-7 pb-3.5 pt-4 text-lg border-2 hover:bg-sky-700  border-sky-400 font-bold uppercase text-white md:mr-4"
                     >Twitter</a
                     >
                 </li>
-                <li role="presentation" class="flex-auto text-center">
+                <li role="presentation" class="flex-auto text-center flex justify-center">
                     <a
                         href="*"
-                        class="my-2 block rounded-lg bg-sky-700 px-7 pb-3.5 pt-4 text-lg hover:text-2xl hover:border-2 border-sky-600 font-bold uppercase text-white md:mr-4"
+                        class="w-[70%] my-2 block rounded-lg bg-sky-700 px-7 pb-3.5 pt-4 text-lg border-2 hover:bg-sky-900  border-sky-600 font-bold uppercase text-white md:mr-4"
                     >Linkedin</a
                     >
                 </li>
-                <li role="presentation" class="flex-auto text-center">
+                <li role="presentation" class="flex-auto text-center flex justify-center">
                     <a
                         href="*"
-                        class="my-2 block rounded-lg bg-orange-500 px-7 pb-3.5 pt-4 text-lg hover:text-2xl hover:border-2 border-orange-400 font-bold uppercase text-white md:mr-4"
+                        class="w-[70%] my-2 block rounded-lg bg-orange-500 px-7 pb-3.5 pt-4 text-lg border-2 hover:bg-orange-700 border-orange-400 font-bold uppercase text-white md:mr-4"
                     >Medium</a
                     >
                 </li>
             </ul>
 
-            <hr className='opacity-20 ml-20 mr-20 mt-16'></hr>
+            
         </div>
 
     )

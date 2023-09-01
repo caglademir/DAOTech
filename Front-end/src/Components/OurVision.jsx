@@ -5,22 +5,22 @@ export default function OurVision() {
         <div>
 
 
-        <div className='p-24 mt-4 mb-4'>
-            <h2 className='text-center text-8xl font-medium text-sky-200'>Our Vision</h2>
-            <div className='grid grid-cols-3 gap-16 mt-16 '>
-                    <div className=''>
+            <div className='p-24 mt-4 mb-4'>
+                <div className='grid grid-cols-2 gap-16 mt-16 '>
+                    <div className='flex justify-center bg-white/20 rounded-lg'>
                         <img src='src/img/ai-eye.png' className=''></img>
                     </div>
-                    <div className='col-span-2 flex items-center'>
-                        <p className='text-2xl text-white text-left '>
+                    <div className=''>
+                        <h2 className='text-right text-8xl font-medium text-sky-200'>Our Vision</h2>
+                        <p className='text-2xl text-white text-right mt-8'>
                             DAOTech is a platform that enables users to come together to create community-focused DAOs (Decentralized Autonomous Organizations) in order to realize their dreams and foster innovation.
                         </p>
                     </div>
 
-                    </div>
+                </div>
 
-        </div>
-        <hr className='opacity-20 ml-20 mr-20 '></hr>
+            </div>
+
         </div>
     )
 }

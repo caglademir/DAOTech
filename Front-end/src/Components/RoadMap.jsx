@@ -173,7 +173,7 @@ export default function RoadMap() {
 
                 </div>
             </div>
-            <hr className='opacity-20 ml-20 mr-20 mt-16'></hr>
+            
         </div>
     )
 }
