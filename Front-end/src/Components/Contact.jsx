@@ -2,8 +2,10 @@ import React from 'react'
 
 export default function Contact() {
     return (
+    
         <div className=''>
-            <h2 className='text-center text-8xl font-medium text-sky-200 p-16'>Contact Us</h2>
+            
+            <h2 className='text-center text-8xl font-medium text-sky-200 p-16'>DAO Tech</h2>
 
             <ul
                 class="mb-5 flex list-none flex-col flex-wrap pl-0 md:flex-row ml-20 mr-20"

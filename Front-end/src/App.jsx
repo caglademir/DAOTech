@@ -5,7 +5,7 @@ import RoadMap from "./Components/RoadMap"
 import WhoAreWe from "./Components/WhoAreWe"
 import OurVision from "./Components/OurVision"
 import Footer from "./Components/Footer"
-import Contact from "./Components/Contact"
+
 import PlatformFeatures from "./Components/PlatformFeatures"
 import Modal from "./Modals/Modal"
 import Ingredients from "./Components/Ingredients"
@@ -25,7 +25,7 @@ function App() {
           <OurVision></OurVision>
           <RoadMap></RoadMap>
           <Acoordion></Acoordion>
-          <Contact></Contact>
+         
           <Footer></Footer>
           
           <div>
