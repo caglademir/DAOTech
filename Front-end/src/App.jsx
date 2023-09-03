@@ -1,5 +1,4 @@
 import { useState } from "react"
-
 import NavBar from "./Components/NavBar"
 import RoadMap from "./Components/RoadMap"
 import WhoAreWe from "./Components/WhoAreWe"
