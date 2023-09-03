@@ -6,7 +6,7 @@ export default function OurVision() {
 
 
             <div className='p-24 mt-4 mb-4'>
-                <div className='grid grid-cols-2 gap-16 mt-16 '>
+                <div className='grid grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4 mt-16 '>
                     <div className='flex justify-center bg-white/20 rounded-lg'>
                         <img src='src/img/ai-eye.png' className=''></img>
                     </div>

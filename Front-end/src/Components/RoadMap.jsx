@@ -5,169 +5,44 @@ export default function RoadMap() {
         <div className=''>
             <h2 className='text-center text-8xl font-medium text-sky-200 mt-16'>RoadMap</h2>
 
-            <div class="min-h-screen ">
-
-                <div class="min-h-screen flex justify-center">
-                    <div class="w-2/3 mx-auto">
-                        <div class="flex flex-row w-full ">
-
-                            <div class="w-2/5 px-2 py-10">
-                                <div class=" flex-col border-4 flex justify-center items-center max-w-sm h-96 rounded-full shadow bg-sky-500 px-4 py-5">
-                                    <div class="text-sky-950 text-2xl mb-2 ">
-                                        <div class="font-bold">
-                                            Building the Foundation
-                                        </div>
-                                        <div class="flex flex-row">
-
-                                        </div>
-                                    </div>
-                                    <div class="text-white">
-                                        User registration and login are established.
-                                        An interface for creating DAOs is integrated.
-                                        Basic funding system is supported by smart contracts.
-                                        Users can create profiles to showcase their interests and skills.
-                                    </div>
-                                </div>
+            <div class="py-10 container mx-auto px-5">
+  
+            <div class="relative">
+                <div class="border-r-4 border-black absolute h-full top-0" style={{ 'left': '9px' }}></div>
+                <ul class="list-none m-0 p-0">
+                    <li class="mb-5  ">
+                        <div class="flex group items-center ">
+                            <div class="bg-gray-800 group-hover:bg-red-700 z-10 rounded-full border-4 border-black  h-5 w-5">
+                                <div class="bg-black h-1 w-6 items-center  ml-4 mt-1"></div>
                             </div>
-
-                            <div class="w-1/5  flex justify-center">
-                                <div class="relative flex h-full w-1 bg-sky-500 items-center justify-center">
-                                    <div class=" text-2xl absolute flex flex-col justify-center h-24 w-24 rounded-full border-4 border-sky-500 leading-none text-center z-10 bg-sky-800 text-white ">
-
-                                        <div>1</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="w-2/5 px-2 py-10 ">
-                            </div>
-                        </div>
-                        <div class="flex flex-row w-full ">
-
-                            <div class="w-2/5 px-2 py-10">
-                            </div>
-
-                            <div class="w-1/5  flex justify-center">
-                                <div class="relative flex h-full w-1 bg-sky-500 items-center justify-center ">
-                                    <div class="text-2xl absolute flex flex-col justify-center h-24 w-24 rounded-full border-4 border-sky-500 leading-none text-center z-10 bg-sky-800 text-white">
-
-                                        <div>2</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="w-2/5 px-2 py-10 ">
-                                <div class="flex flex-col border-4 justify-center items-center max-w-sm h-96 rounded-full shadow bg-sky-500 px-4 py-5 text-center">
-                                    <div class="text-sky-950 text-2xl mb-2 flex justify-between">
-                                        <div class="font-bold">
-                                            Strengthening Communication and Collaboration
-                                        </div>
-                                    </div>
-                                    <div class="text-white">
-                                        An internal communication platform promotes effective discussions among DAO members.
-                                        Collaboration tools are improved for sharing ideas and forming partnerships.
-                                        Customizable discussion forums are created.
-                                    </div>
+                            <div class="flex-1 ml-4 z-10 font-medium">
+                                <div class="order-1 space-y-2 bg-gray-800 rounded-lg shadow-only transition-ease lg:w-5/12 px-6 py-4">
+                                    <h3 class="mb-3 font-bold text-white text-2xl">Personal Portfolio April Fools</h3>
+                                    <p class="pb-4 text-sm text-gray-100">University of DVI (1997 - 2001)</p>
+                                    <hr />
+                                    <p class="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="flex flex-row w-full ">
-
-                            <div class="w-2/5 px-2 py-10">
-                                <div class=" flex flex-col border-4 justify-center items-center max-w-sm h-96 rounded-full shadow bg-sky-500 px-4 py-5">
-                                    <div class="text-sky-950 text-2xl mb-2 ">
-                                        <div class="font-bold">
-                                            Smart Contracts and Advanced Voting
-                                        </div>
-
-                                    </div>
-                                    <div class="text-white">
-                                        Smart contracts expand to include complex funding models and payment plans.
-                                        Users can closely track project progress using smart contracts.
-                                        Enhanced voting options offer flexibility and fairness.
-                                    </div>
-                                </div>
+                    </li>
+                    <li class="mb-5  ">
+                        <div class="flex group items-center ">
+                            <div class="bg-gray-800 group-hover:bg-red-700 z-10 rounded-full border-4 border-black  h-5 w-5">
+                                <div class="bg-black h-1 w-6 items-center  ml-4 mt-1"></div>
                             </div>
-
-                            <div class="w-1/5  flex justify-center">
-                                <div class="relative flex h-full w-1 bg-sky-500 items-center justify-center">
-                                    <div class=" text-2xl absolute flex flex-col justify-center h-24 w-24 rounded-full border-4 border-sky-500 leading-none text-center z-10 bg-sky-800 text-white ">
-
-                                        <div>3</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="w-2/5 px-2 py-10 ">
-                            </div>
-                        </div>
-                        <div class="flex flex-row w-full ">
-
-                            <div class="w-2/5 px-2 py-10">
-                            </div>
-
-                            <div class="w-1/5  flex justify-center">
-                                <div class="relative flex h-full w-1 bg-sky-500 items-center justify-center ">
-                                    <div class="text-2xl absolute flex flex-col justify-center h-24 w-24 rounded-full border-4 border-sky-500 leading-none text-center z-10 bg-sky-800 text-white">
-
-                                        <div>4</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="w-2/5 px-2 py-10 ">
-                                <div class="flex flex-col border-4 justify-center items-center max-w-sm h-96 rounded-full shadow bg-sky-500 px-4 py-5 text-center">
-                                    <div class="text-sky-950 text-2xl mb-2 flex justify-between">
-                                        <div class="font-bold">
-                                            Innovation and Accessibility
-                                        </div>
-                                    </div>
-                                    <div class="text-white">
-                                        Multi-language support enhances the platform's reach.
-                                        Ongoing security and performance improvements for smart contracts.
-                                        User feedback and data analysis drive continuous enhancements.
-
-                                    </div>
+                            <div class="flex-1 ml-4 z-10 font-medium">
+                                <div class="order-1 space-y-2 bg-gray-800 rounded-lg shadow-only transition-ease lg:w-5/12 px-6 py-4">
+                                    <h3 class="mb-3 font-bold text-white text-2xl">Personal Portfolio April Fools</h3>
+                                    <p class="pb-4 text-sm text-gray-100">University of DVI (1997 - 2001)</p>
+                                    <hr />
+                                    <p class="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="flex flex-row w-full ">
-
-                            <div class="w-2/5 px-2 py-10">
-                                <div class=" flex flex-col border-4 justify-center items-center max-w-sm h-96 rounded-full shadow bg-sky-500 px-4 py-5">
-                                    <div class="text-sky-950 text-2xl mb-2 ">
-                                        <div class="font-bold ">
-                                            Governance and Long-Term Growth
-                                        </div>
-                                        <div class="flex flex-row">
-
-                                        </div>
-                                    </div>
-                                    <div class="text-white">
-                                        Decentralized governance empowers DAO members to shape the platform's future.
-                                        The platform evolves with the consensus of DAO members.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="w-1/5  flex justify-center">
-                                <div class="relative flex h-full w-1 bg-sky-500 items-center justify-center">
-                                    <div class=" text-2xl absolute flex flex-col justify-center h-24 w-24 rounded-full border-4 border-sky-500 leading-none text-center z-10 bg-sky-800 text-white ">
-
-                                        <div>5</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="w-2/5 px-2 py-10 ">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+                    </li>
+                </ul>
             </div>
+        </div>
 
         </div>
     )
