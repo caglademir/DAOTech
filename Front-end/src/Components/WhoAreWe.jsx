@@ -15,7 +15,6 @@ export default function WhoAreWe() {
                             id="button"
                             className="flex items-center justify-center float-left mt-6 ">
                             <button
-
                                 className="flex items-center bg-gradient-to-r from-blue-500 to-blue-800 hover:bg-gradient-to-bl border-blue-400 text-white font-bold p-5  h-[60%] rounded-2xl ">
                                 Connect to Phantom
                                 <img
