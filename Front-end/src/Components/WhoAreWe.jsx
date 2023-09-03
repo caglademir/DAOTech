@@ -5,7 +5,7 @@ export default function WhoAreWe() {
         <div>
             <div className='p-24 mt-4 mb-4 '>
 
-                <div className='grid grid-cols-2 '>
+                <div className='grid grid-cols-2 gap-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 '>
                     <div >
                         <h2 className='text-left text-8xl font-medium text-sky-200'>Who are we?</h2>
                         <p className='text-2xl text-white text-left mt-6 '>

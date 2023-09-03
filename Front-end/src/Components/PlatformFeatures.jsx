@@ -11,7 +11,7 @@ export default function
 
                 <h2 className='text-center text-8xl font-medium text-sky-200 p-4 mb-10'>Platform Features</h2>
 
-                <div className='grid grid-cols-5 gap-2'>
+                <div className='grid grid-cols-5 xl:grid-cols-5 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-2'>
 
                     <div className='bg-white/20 rounded-lg p-8 grid rows-3 border hover:border-4 border-sky-400'>
                         <div

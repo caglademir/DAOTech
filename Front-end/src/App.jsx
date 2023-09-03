@@ -1,10 +1,12 @@
-import { useState } from "react";
-import { Routes, Route, Link, NavLink } from "react-router-dom";
-import NavBar from "./Components/NavBar";
-import RoadMap from "./Components/RoadMap";
-import WhoAreWe from "./Components/WhoAreWe";
-import OurVision from "./Components/OurVision";
-import Footer from "./Components/Footer";
+
+
+import { useState } from "react"
+import NavBar from "./Components/NavBar"
+import RoadMap from "./Components/RoadMap"
+import WhoAreWe from "./Components/WhoAreWe"
+import OurVision from "./Components/OurVision"
+import Footer from "./Components/Footer"
+
 
 import PlatformFeatures from "./Components/PlatformFeatures";
 import Modal from "./Modals/Modal";

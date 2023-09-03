@@ -19,7 +19,10 @@ export default function NavBar({ setIsOpen }) {
           <button
             onClick={openDao}
             
-            className="flex items-center bg-gradient-to-r from-blue-500 to-blue-800 hover:bg-gradient-to-bl border-blue-400 text-white font-bold p-5  h-[60%] rounded-2xl "
+            className="flex items-center bg-gradient-to-r 
+            from-blue-500 to-blue-800 hover:bg-gradient-to-bl
+             border-blue-400 text-white font-bold p-5  h-[60%] 
+             rounded-2xl "
           >
             Create New DAO
             <img
