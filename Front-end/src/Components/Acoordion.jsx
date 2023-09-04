@@ -1,7 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function
   () {
+    const [isOpen ,setIsOpen] = useState(false)
+    const [isOpen1 ,setIsOpen1] = useState(false)
+    const [isOpen2 ,setIsOpen2] = useState(false)
+
+    const openAcoordion = (id) =>{
+      switch (id){
+        case 1 : setIsOpen(!isOpen)
+        break;
+        case 2 : setIsOpen1(!isOpen1)
+        break;
+        case 3 : setIsOpen2(!isOpen2)
+      }
+    }
   return (
     <div className='p-8'>
       <h2 className='text-center text-8xl font-medium text-sky-200 mt-16'>Frequently Asked Questions</h2>
@@ -13,6 +26,7 @@ export default function
         <h2 id="accordion-collapse-heading-1"
           className='bg-gray-900 rounded-t-lg'>
           <button
+            onClick={()=> openAcoordion(1)}
             type="button"
             class="flex items-center justify-between w-full p-5 
             font-medium text-left text-gray-200 hover:bg-gray-950
@@ -28,7 +42,7 @@ export default function
         </h2>
         <div 
         id="accordion-collapse-body-1"  
-        className=''
+        className = {` ${ isOpen ? 'hidden' : ''}`}
         aria-labelledby="accordion-collapse-heading-1">
           <div class="p-5 bg-sky-950">
             <p 
@@ -44,6 +58,7 @@ export default function
         </div>
         <h2 id="accordion-collapse-heading-2">
           <button 
+          onClick={()=> openAcoordion(2)}
           type="button" 
           class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-200
            bg-gray-900 hover:bg-gray-950 dark:hover:bg-gray-950
@@ -59,7 +74,7 @@ export default function
         </h2>
         <div 
         id="accordion-collapse-body-2" 
-        class="" 
+        class= { `${ isOpen1 ? 'hidden' : ''}` }
         aria-labelledby="accordion-collapse-heading-2">
           <div class="p-5 bg-sky-950 dark:border-gray-700">
             <p 
@@ -76,6 +91,7 @@ export default function
         </div>
         <h2 id="accordion-collapse-heading-3">
           <button 
+          onClick={()=> openAcoordion(3)}
           type="button" 
           class="flex items-center justify-between w-full p-5 font-medium text-left 
           text-gray-200 bg-gray-900 hover:bg-gray-950 border border-2 border-gray-900" 
@@ -90,7 +106,7 @@ export default function
         </h2>
         <div 
         id="accordion-collapse-body-3" 
-        class="" 
+        class= {  `${ isOpen2 ? 'hidden' : ''}`}  
         aria-labelledby="accordion-collapse-heading-3">
           <div class="p-5 bg-sky-950 rounded-b-lg border border-2 border-gray-900">
             <p 
