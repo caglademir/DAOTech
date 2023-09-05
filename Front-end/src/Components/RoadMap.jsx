@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function RoadMap() {
     return (
-        <div className=''>
+        <div id='roadMap'>
             <h2 className='text-center text-8xl font-medium text-sky-200 mt-16'>RoadMap</h2>
 
             <div class="py-10 container mx-auto px-5">

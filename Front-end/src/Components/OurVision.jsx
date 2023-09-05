@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function OurVision() {
     return (
-        <div>
+        <div id='ourVision'>
 
 
             <div className='p-24 mt-4 mb-4'>

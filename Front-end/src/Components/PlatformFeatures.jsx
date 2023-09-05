@@ -5,7 +5,7 @@ export default function
 
     () {
     return (
-        <div>
+        <div id='platformFeatures'>
 
             <div className='p-16 mt-4 mb-4'>
 

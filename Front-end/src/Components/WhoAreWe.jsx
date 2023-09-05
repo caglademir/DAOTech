@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function WhoAreWe() {
     return (
-        <div>
+        <div id='whoAreWe' >
             <div className='p-24 mt-4 mb-4 '>
 
                 <div className='grid grid-cols-2 gap-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 '>
