@@ -6,6 +6,8 @@ export default function Modal({
   setIsOpen1,
   setIsOpen2,
   setIsOpen3,
+  setIsOpen4,
+  setIsOpen5
 }) {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-20 backdrop-blur-lg flex justify-center items-center ">
@@ -16,6 +18,8 @@ export default function Modal({
               setIsOpen1(false),
               setIsOpen2(false),
               setIsOpen3(false);
+            setIsOpen4(false);
+            setIsOpen5(false)
           }}
           className=" text-white h-[10%] place-self-end w-[5%] m-2 "
         >

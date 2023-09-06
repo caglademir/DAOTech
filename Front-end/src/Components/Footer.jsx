@@ -6,7 +6,7 @@ import Ingredients from './Ingredients'
 
 export default function Footer() {
   return (
-    <div>
+    <div id='contactUs'>
       <div className='flex justify-center mr-6'>
       <img src="/src/img/logob.png" className='w-3/12' alt="DAOTech.logo" />
       </div>

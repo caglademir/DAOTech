@@ -11,8 +11,8 @@ export default function OurVision() {
                         
                     </div>
                     <div className='p-10'>
-                        <h2 className='text-right text-9xl font-medium text-sky-200'>Our Vision</h2>
-                        <p className='text-3xl text-white text-right mt-8'>
+                        <h2 className=' text-9xl font-medium text-sky-200'>Our Vision</h2>
+                        <p className='text-3xl text-white text-left mt-8'>
                             DAOTech is a platform that enables users to come together to create community-focused DAOs (Decentralized Autonomous Organizations) in order to realize their dreams and foster innovation.
                         </p>
                     </div>

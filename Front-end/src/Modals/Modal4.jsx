@@ -1,7 +1,8 @@
 import React from 'react'
 
-export default function Modal4() {
+export default function Modal4({setIsOpen4,setIsOpen5}) {
   return (
+
     <div>
             <div className="bg-white/20 p-4 ml-20 mr-20 rounded-lg">
         <div className="grid grid-rows-3">
@@ -53,12 +54,14 @@ export default function Modal4() {
       </div>
       <div className="bg-transparent mt-10 mr-40 ml-40 rounded-lg">
         <button
+         onClick={()=>{ setIsOpen4(false);setIsOpen5(true)} }
           type="button"
           class="w-full text-white bg-blue-700 hover:bg-blue-800 
             focus:ring-4 focus:outline-none focus:ring-blue-300 
             font-medium rounded-lg text-md px-5 py-2.5 text-center 
             inline-flex items-center justify-center"
         >
+          
           Next Step
           <svg
             class="w-3.5 h-3.5 ml-2"

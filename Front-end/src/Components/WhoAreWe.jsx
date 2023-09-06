@@ -3,7 +3,7 @@ import React from 'react'
 export default function WhoAreWe() {
     return (
 
-        <div>
+        <div id='WhoAreWe' >
             <div className='p-28 mt-4 '>
 
 

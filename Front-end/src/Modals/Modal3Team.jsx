@@ -1,6 +1,10 @@
 import React from "react";
 
-export default function Modal({}) {
+export default function Modal3Team({ setIsOpen3, setIsOpen4 }) {
+  const option = (e) => {
+    setIsOpen3(false);
+    console.log("tikladi");
+  };
   return (
     <div>
       <div className="text-3xl font-bold text-gray-200 ml-20 mb-2">
@@ -18,44 +22,52 @@ export default function Modal({}) {
 
           <div class=" grid col-rows-2 mt-4">
             <div className="flex justify-start">
-            <label
-              for="base-input"
-              class="block m-2 text-2xl font-bold text-sky-200 "
-            >
-              Status
-            </label></div>
+              <label
+                for="base-input"
+                class="block m-2 text-2xl font-bold text-sky-200 "
+              >
+                Status
+              </label>
+            </div>
             <div class="flex items-start m-2">
-            <input
-              type="text"
-              id="base-input"
-              placeholder="status"
-              class="bg-white/20 border-2 
+              <input
+                type="text"
+                id="base-input"
+                placeholder="status"
+                class="bg-white/20 border-2 
                   border-sky-200 text-md rounded-lg 
-                  text-stone-200 block w-full p-2.5"/>
+                  text-stone-200 block w-full p-2.5"
+              />
             </div>
           </div>
           <div class=" grid col-rows-2 mt-4">
             <div className="flex justify-start">
-            <label
-              for="base-input"
-              class="block m-2 text-2xl font-bold text-sky-200 "
-            >
-              Wallet
-            </label></div>
+              <label
+                for="base-input"
+                class="block m-2 text-2xl font-bold text-sky-200 "
+              >
+                Wallet
+              </label>
+            </div>
             <div class="flex items-start m-2">
-            <input
-              type="text"
-              id="base-input"
-              placeholder="wallet"
-              class="bg-white/20 border-2 
+              <input
+                type="text"
+                id="base-input"
+                placeholder="wallet"
+                class="bg-white/20 border-2 
                   border-sky-200 text-md rounded-lg 
-                  text-stone-200 block w-full p-2.5"/>
+                  text-stone-200 block w-full p-2.5"
+              />
             </div>
           </div>
         </div>
       </div>
       <div className="bg-transparent mt-10 mr-40 ml-40 rounded-lg">
         <button
+          onClick={(e) => {
+            setIsOpen4(true);
+            option();
+          }}
           type="button"
           class="w-full text-white bg-blue-700 hover:bg-blue-800 
             focus:ring-4 focus:outline-none focus:ring-blue-300 
