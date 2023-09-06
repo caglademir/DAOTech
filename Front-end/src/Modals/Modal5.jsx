@@ -1,12 +1,9 @@
-import React from "react";
+import React from 'react'
 
-export default function Modal({}) {
+export default function Modal5() {
   return (
     <div>
-      <div className="text-3xl font-bold text-gray-200 ml-20 mb-2">
-        Team Members:
-      </div>
-      <div className="bg-white/20 p-4 ml-20 mr-20 rounded-lg">
+            <div className="bg-white/20 p-4 ml-20 mr-20 rounded-lg">
         <div className="grid grid-rows-3">
           <div className="flex justify-center">
             <img
@@ -20,38 +17,39 @@ export default function Modal({}) {
             <div className="flex justify-start">
             <label
               for="base-input"
-              class="block m-2 text-2xl font-bold text-sky-200 "
+              class="block m-2 text-2xl font-bold text-blue-400 "
             >
-              Status
+             DAO SYMBOL
             </label></div>
-            <div class="flex items-start m-2">
-            <input
-              type="text"
-              id="base-input"
-              placeholder="status"
-              class="bg-white/20 border-2 
-                  border-sky-200 text-md rounded-lg 
-                  text-stone-200 block w-full p-2.5"/>
+            <div class="flex items-start m-2 bg-white/20 rounded-lg p-2 text-gray-200">
+            DAO Symbol
             </div>
           </div>
           <div class=" grid col-rows-2 mt-4">
             <div className="flex justify-start">
             <label
               for="base-input"
-              class="block m-2 text-2xl font-bold text-sky-200 "
+              class="block m-2 text-2xl font-bold text-blue-400 "
             >
-              Wallet
+             DAO NAME
             </label></div>
-            <div class="flex items-start m-2">
-            <input
-              type="text"
-              id="base-input"
-              placeholder="wallet"
-              class="bg-white/20 border-2 
-                  border-sky-200 text-md rounded-lg 
-                  text-stone-200 block w-full p-2.5"/>
+            <div class="flex items-start m-2 bg-white/20 rounded-lg p-2 text-gray-200">
+            DAO Name
             </div>
           </div>
+          <div class=" grid col-rows-2 mt-4">
+            <div className="flex justify-start">
+            <label
+              for="base-input"
+              class="block m-2 text-2xl font-bold text-blue-400 "
+            >
+             DAO MEMBERS
+            </label></div>
+            <div class="flex items-start m-2 bg-white/20 rounded-lg p-2 text-gray-200">
+            DAO Members
+            </div>
+          </div>
+          
         </div>
       </div>
       <div className="bg-transparent mt-10 mr-40 ml-40 rounded-lg">
@@ -62,7 +60,7 @@ export default function Modal({}) {
             font-medium rounded-lg text-md px-5 py-2.5 text-center 
             inline-flex items-center justify-center"
         >
-          Next Step
+          Create DAO
           <svg
             class="w-3.5 h-3.5 ml-2"
             aria-hidden="true"
@@ -81,5 +79,5 @@ export default function Modal({}) {
         </button>
       </div>
     </div>
-  );
+  )
 }

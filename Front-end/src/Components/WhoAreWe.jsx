@@ -2,13 +2,18 @@ import React from 'react'
 
 export default function WhoAreWe() {
     return (
+<<<<<<< HEAD
         <div id='whoAreWe' >
             <div className='p-24 mt-4 mb-4 '>
+=======
+        <div>
+            <div className='p-28 mt-4 '>
+>>>>>>> 4eb87a0 (Modified Front-end)
 
                 <div className='grid grid-cols-2 gap-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 '>
-                    <div >
-                        <h2 className='text-left text-8xl font-medium text-sky-200'>Who are we?</h2>
-                        <p className='text-2xl text-white text-left mt-6 '>
+                    <div className='p-14'>
+                        <h2 className='text-left text-9xl font-medium text-sky-200'>Who are we?</h2>
+                        <p className='text-3xl text-white text-left mt-6 '>
                             DAOTech is a platform that enables users to come together to create community-focused DAOs (Decentralized Autonomous Organizations) in order to realize their dreams and foster innovation.
                         </p>
                         <div
@@ -27,8 +32,8 @@ export default function WhoAreWe() {
                         </div>
                     </div>
 
-                    <div className='bg-white/20 rounded-lg flex justify-center'>
-                        <img src='src/img/dao-2.png'></img>
+                    <div className=''>
+                        
                     </div>
 
                 </div>

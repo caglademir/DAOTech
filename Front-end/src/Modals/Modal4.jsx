@@ -1,12 +1,9 @@
-import React from "react";
+import React from 'react'
 
-export default function Modal({}) {
+export default function Modal4() {
   return (
     <div>
-      <div className="text-3xl font-bold text-gray-200 ml-20 mb-2">
-        Team Members:
-      </div>
-      <div className="bg-white/20 p-4 ml-20 mr-20 rounded-lg">
+            <div className="bg-white/20 p-4 ml-20 mr-20 rounded-lg">
         <div className="grid grid-rows-3">
           <div className="flex justify-center">
             <img
@@ -17,38 +14,38 @@ export default function Modal({}) {
           </div>
 
           <div class=" grid col-rows-2 mt-4">
-            <div className="flex justify-start">
+            <div className="flex justify-center">
             <label
               for="base-input"
-              class="block m-2 text-2xl font-bold text-sky-200 "
+              class="block m-2 text-2xl font-bold text-blue-900 "
             >
-              Status
+              Contrat Address
             </label></div>
             <div class="flex items-start m-2">
             <input
               type="text"
               id="base-input"
-              placeholder="status"
+              placeholder="Contrat Address"
               class="bg-white/20 border-2 
-                  border-sky-200 text-md rounded-lg 
+                  border-blue-900 text-md rounded-lg 
                   text-stone-200 block w-full p-2.5"/>
             </div>
           </div>
           <div class=" grid col-rows-2 mt-4">
-            <div className="flex justify-start">
+            <div className="flex justify-center">
             <label
               for="base-input"
-              class="block m-2 text-2xl font-bold text-sky-200 "
+              class="block m-2 text-2xl font-bold text-blue-900 "
             >
-              Wallet
+              Collection Name
             </label></div>
             <div class="flex items-start m-2">
             <input
               type="text"
               id="base-input"
-              placeholder="wallet"
+              placeholder="Collection Name"
               class="bg-white/20 border-2 
-                  border-sky-200 text-md rounded-lg 
+                  border-blue-900 text-md rounded-lg 
                   text-stone-200 block w-full p-2.5"/>
             </div>
           </div>
@@ -81,5 +78,5 @@ export default function Modal({}) {
         </button>
       </div>
     </div>
-  );
+  )
 }

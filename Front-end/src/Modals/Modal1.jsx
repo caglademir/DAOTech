@@ -9,8 +9,7 @@ export default function Modal1({ setIsOpen1 }) {
             for="dropzone-file"
             class="flex flex-col items-center justify-center w-[19%]  
                                         border-2 border-gray-300 border-dashed rounded-full bg-transparent
-                                        bg-white/25"
-          >
+                                        bg-white/25">
             <div class="flex flex-col items-center justify-center pt-5 pb-6">
               <svg
                 class="w-8 h-8 mb-4 text-gray-200 "

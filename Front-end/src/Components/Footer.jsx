@@ -7,15 +7,21 @@ import Ingredients from './Ingredients'
 export default function Footer() {
   return (
     <div>
-      <h2 className='text-center text-8xl font-medium text-sky-200 p-8 mt-8'>DAO Tech</h2>
+      <div className='flex justify-center mr-6'>
+      <img src="/src/img/logob.png" className='w-3/12' alt="DAOTech.logo" />
+      </div>
       <div className=''>
       <Ingredients></Ingredients>
       </div>
       <div className='grid grid-cols-5 text-white mt-14'>
         <div></div>
-        <div className='flex justify-end text-md font-bold text-gray-200'>phone: &nbsp; <a className='hover:underline hover:text-lg ' href="tel:+905000000000">+90 555 444 33 22</a></div>
+        <div className='flex justify-end text-md font-bold text-gray-200'>
+          phone: &nbsp; <a className='hover:underline hover:text-lg ' href="tel:+905000000000">
+            +90 555 444 33 22</a></div>
         <div className='flex justify-center text-2xl w-full'>l</div>
-        <div className='flex justify-start text-md font-bold text-gray-200'>e-mail: &nbsp;<a className='hover:underline hover:text-lg ' href="mailto:test@example.com">test@example.com</a></div>
+        <div className='flex justify-start text-md font-bold text-gray-200'>
+          e-mail: &nbsp;<a className='hover:underline hover:text-lg' href="mailto:test@example.com">
+            test@example.com</a></div>
         <div></div>
       </div>
       <div className='flex justify-center'>

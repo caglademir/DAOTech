@@ -1,24 +1,36 @@
 import React from "react";
 
-export default function Modal3Dao({}) {
+export default function Modal3Dao({ }) {
   return (
     <div>
-      <div className="text-3xl font-bold text-gray-200 ml-20 mb-2">
+       <div className="text-3xl font-bold text-gray-200 ml-20 mb-2">
         DAO Members:
       </div>
       <div className="bg-white/20 p-4 ml-20 mr-20 rounded-lg">
-        <div className="grid grid-cols-4">
-          <div>
+        <div className="grid grid-rows-2">
+          <div className="flex items-end justify-center">
             <img
               class="w-28 h-28 rounded-full"
               src="/src/img/avatar.jpg"
               alt="Large avatar"
             />
           </div>
-
-          <div class="col-span-3 flex items-center ">
-            <div className="bg-white/30 font-bold rounded-lg text-sky-900 w-full p-2">
+          <div class=" grid col-rows-2 mt-4">
+            <div className="flex justify-start">
+            <label
+              for="base-input"
+              class="block m-2 text-2xl font-bold text-sky-200 "
+            >
               Wallet
+            </label></div>
+            <div class="flex items-start m-2">
+            <input
+              type="text"
+              id="base-input"
+              placeholder="wallet"
+              class="bg-white/20 border-2 
+                  border-sky-200 text-md rounded-lg 
+                  text-stone-200 block w-full p-2.5"/>
             </div>
           </div>
         </div>
@@ -49,6 +61,9 @@ export default function Modal3Dao({}) {
           </svg>
         </button>
       </div>
+
     </div>
   );
 }
+
+     

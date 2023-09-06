@@ -21,13 +21,13 @@ export default function Modal2({ setIsOpen2, setIsOpen3 }) {
   return (
     <div>
       <div className="bg-white/20 p-4 mr-40 ml-40 mt-40 mb-10 rounded-lg border-2">
-        <label for="large" class="block mb-2 text-lg font-bold text-gray-200">
+        <label for="large" class="block mb-2 text-2xl font-bold text-sky-200">
           Add Council Member
         </label>
         <select
           onChange={option}
           id="large"
-          class="block w-full px-4 py-3 text-md text-gray-800 border border-gray-300 
+          class="block w-full px-4 py-3 text-lg text-gray-800 border border-sky-200 
           rounded-lg bg-white/30 focus:ring-blue-500 focus:border-blue-500"
         >
           <option selected disabled>
@@ -36,7 +36,24 @@ export default function Modal2({ setIsOpen2, setIsOpen3 }) {
           <option value="US">Team member</option>
           <option value="CA">DAO member</option>
         </select>
+        <div className="">
+            <label
+              for="base-input"
+              class="block mt-2 mb-2 text-2xl font-bold text-sky-200 "
+            >
+              Number of Members
+            </label></div>
+            <div class="flex items-start">
+            <input
+              type="text"
+              id="base-input"
+              placeholder="Number of Members"
+              class="bg-white/20 border-2 
+                  border-sky-200 text-md rounded-lg 
+                  text-stone-200 block w-full p-2.5"/>
+            </div>
       </div>
+      
       <div className="bg-transparent  mr-40 ml-40 rounded-lg">
         <button
           onClick={ways}

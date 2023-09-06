@@ -7,9 +7,9 @@ export default function
     return (
         <div id='platformFeatures'>
 
-            <div className='p-16 mt-4 mb-4'>
+            <div className='p-16'>
 
-                <h2 className='text-center text-8xl font-medium text-sky-200 p-4 mb-10'>Platform Features</h2>
+                <h2 className='text-center text-9xl font-medium text-sky-200 p-4 mb-10'>Platform Features</h2>
 
                 <div className='grid grid-cols-5 xl:grid-cols-5 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-2'>
 
