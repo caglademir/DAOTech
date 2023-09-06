@@ -2,13 +2,10 @@ import React from 'react'
 
 export default function WhoAreWe() {
     return (
-<<<<<<< HEAD
-        <div id='whoAreWe' >
-            <div className='p-24 mt-4 mb-4 '>
-=======
+
         <div>
             <div className='p-28 mt-4 '>
->>>>>>> 4eb87a0 (Modified Front-end)
+
 
                 <div className='grid grid-cols-2 gap-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 '>
                     <div className='p-14'>

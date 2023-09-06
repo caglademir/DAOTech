@@ -2,13 +2,10 @@ import React from 'react'
 
 export default function RoadMap() {
     return (
-<<<<<<< HEAD
-        <div id='roadMap'>
-            <h2 className='text-center text-8xl font-medium text-sky-200 mt-16'>RoadMap</h2>
-=======
+
         <div className=''>
             <h2 className='text-center text-9xl font-medium text-sky-200 p-8 '>RoadMap</h2>
->>>>>>> 4eb87a0 (Modified Front-end)
+
 
             <section class=" dark:text-gray-100">
                 <div class="container max-w-5xl px-4 py-12 mx-auto">

@@ -1,19 +1,11 @@
-<<<<<<< HEAD
-import { useState } from "react";
-import NavBar from "./Components/NavBar";
-import RoadMap from "./Components/RoadMap";
-import WhoAreWe from "./Components/WhoAreWe";
-import OurVision from "./Components/OurVision";
-import Footer from "./Components/Footer";
 
-=======
 import { useState } from "react"
 import NavBar from "./Components/NavBar"
 import RoadMap from "./Components/RoadMap"
 import WhoAreWe from "./Components/WhoAreWe"
 import OurVision from "./Components/OurVision"
 import Footer from "./Components/Footer"
->>>>>>> 4eb87a0 (Modified Front-end)
+
 import PlatformFeatures from "./Components/PlatformFeatures";
 import Modal from "./Modals/Modal";
 import Modal1 from "./Modals/Modal1";
@@ -32,21 +24,7 @@ function App() {
 
   return (
     <>
-<<<<<<< HEAD
-      <div
-        className="h-full bg-gradient-to-r from-gray-950 via-sky-800 to-gray-950 scroll-behavior:smooth "
-        
-      >
-        <NavBar setIsOpen={setIsOpen}></NavBar>
-        <Ingredients></Ingredients>
-        <WhoAreWe></WhoAreWe>
-        <PlatformFeatures></PlatformFeatures>
-        <OurVision></OurVision>
-        <RoadMap></RoadMap>
-        <Acoordion></Acoordion>
 
-        <Footer id="footer"></Footer>
-=======
       <div className="h-full bg-gradient-to-r from-gray-950 via-sky-800 to-gray-950">
         
         <div className="bg-cover bg-no-repeat bg-center bg-[url(/src/img/welcome.png)]">
@@ -59,7 +37,7 @@ function App() {
           <PlatformFeatures></PlatformFeatures>
           <OurVision></OurVision>
         </div>
->>>>>>> 4eb87a0 (Modified Front-end)
+
 
         <div className="bg-cover bg-no-repeat bg-[url(/src/img/moon.jpg)]">
           <RoadMap></RoadMap>
@@ -71,13 +49,11 @@ function App() {
        
         <div>
           {!!isOpen && (
-<<<<<<< HEAD
-            <Modal setIsOpen={setIsOpen}>
-=======
+
             <Modal
               setIsOpen={setIsOpen}
             >
->>>>>>> 4eb87a0 (Modified Front-end)
+
               <Modal1 setIsOpen1={setIsOpen1} />
             </Modal>
           )}
@@ -85,16 +61,9 @@ function App() {
 
         <div>
           {!!isOpen1 && (
-<<<<<<< HEAD
-            <Modal
-              setIsOpen={setIsOpen}
-              setIsOpen1={setIsOpen1}
-              setIsOpen2={setIsOpen2}
-              setIsOpen3={setIsOpen3}
-            >
-=======
+
             <Modal setIsOpen={setIsOpen} setIsOpen1={setIsOpen1} setIsOpen2={setIsOpen2} setIsOpen3={setIsOpen3} >
->>>>>>> 4eb87a0 (Modified Front-end)
+
               <Modal2 setIsOpen2={setIsOpen2} setIsOpen3={setIsOpen3} />
             </Modal>
           )}
