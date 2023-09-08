@@ -65,7 +65,7 @@ function App() {
           <NavBar setIsOpen={setIsOpen}></NavBar>
 
           <WhoAreWe></WhoAreWe>
-        </div>
+        </div>   
 
         <div className="bg-cover bg-no-repeat bg-[url(/src/img/vision.png)]">
           <PlatformFeatures></PlatformFeatures>

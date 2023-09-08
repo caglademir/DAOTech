@@ -23,7 +23,7 @@ export default function NavBar({ setIsOpen }) {
         <div className="col-span-3 flex justify-center items-center">
           <div className="text-center text-xl lg:flex-grow">
             <a
-              href="#whoWeAre"
+              href="#whoAreWe"
               className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 mr-6 "
             >
               Who are we?

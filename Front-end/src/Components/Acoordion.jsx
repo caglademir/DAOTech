@@ -27,7 +27,7 @@ export default function
     }
   }
   return (
-    <div className='p-8'>
+    <div id="FAQ" className='p-8'>
       <h2 className='text-center text-9xl font-medium text-sky-200 mt-16'>Frequently Asked Questions</h2>
 
 

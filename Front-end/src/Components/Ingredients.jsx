@@ -6,22 +6,17 @@ export default function Ingredients() {
       <nav className="">
         <div
           className="text-center text-2xl lg:flex-grow"
-          onClick={() => {
-            console.log("tiklandi");
-          }}
         >
-          <button
-            href="#footer "
-            onClick={() => {
-              console.log("tiklandi");
-            }}
-            className="button block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 mr-6 "
+          <a
+
+            href="#whoAreWe"
+            className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 mr-6"
           >
             Who are we?
-          </button>
+          </a>
           <a
-            onClick={console.log("tikladik")}
-            href="#responsive-header"
+
+            href="#platformFeatures"
             className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 mr-6"
           >
             Platform Features
@@ -39,13 +34,13 @@ export default function Ingredients() {
             RoadMap
           </a>
           <a
-            href="#"
+            href="#FAQ"
             className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 mr-6"
           >
             FAQ
           </a>
           <a
-            href="#responsive-header"
+            href="#contactUs"
             className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 mr-6"
           >
             Contact Us
