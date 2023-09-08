@@ -31,7 +31,7 @@ export default function
             type="button"
             class="flex items-center justify-between w-full p-5 
             font-medium text-left text-gray-200 hover:bg-gray-950
-            border border-2 border-gray-900 rounded-t-lg"
+            border-b border-gray-600 rounded-t-lg"
             data-accordion-target="#accordion-collapse-body-1"
             aria-expanded="true"
 
@@ -76,7 +76,7 @@ export default function
             type="button"
             class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-200
            bg-gray-900 hover:bg-gray-950 dark:hover:bg-gray-950
-           border border-2 border-gray-900"
+           border-b border-gray-600  "
             data-accordion-target="#accordion-collapse-body-2"
             aria-expanded="false"
 
@@ -122,7 +122,7 @@ export default function
             type="button"
             class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-200
            bg-gray-900 hover:bg-gray-950 dark:hover:bg-gray-950
-           border border-2 border-gray-900"
+           border-b border-gray-600"
             data-accordion-target="#accordion-collapse-body-2"
             aria-expanded="false"
 
@@ -172,7 +172,7 @@ export default function
             type="button"
             class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-200
            bg-gray-900 hover:bg-gray-950 dark:hover:bg-gray-950
-           border border-2 border-gray-900"
+           border-b border-gray-600"
             data-accordion-target="#accordion-collapse-body-2"
             aria-expanded="false"
 
@@ -219,7 +219,7 @@ export default function
             type="button"
             class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-200
            bg-gray-900 hover:bg-gray-950 dark:hover:bg-gray-950
-           border border-2 border-gray-900"
+           border-b border-gray-600"
             data-accordion-target="#accordion-collapse-body-2"
             aria-expanded="false"
 
@@ -263,7 +263,7 @@ export default function
             onClick={() => openAcoordion(3)}
             type="button"
             class="flex items-center justify-between w-full p-5 font-medium text-left 
-          text-gray-200 bg-gray-900 hover:bg-gray-950 border border-2 border-gray-900"
+          text-gray-200 bg-gray-900 hover:bg-gray-950 border-b border-gray-600"
             data-accordion-target="#accordion-collapse-body-3"
             aria-expanded="false"
 
