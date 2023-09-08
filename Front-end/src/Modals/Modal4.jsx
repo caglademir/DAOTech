@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Modal4({setIsOpen4,setIsOpen5}) {
+export default function Modal4({setIsOpen4,setIsOpen5,setContratAddress,setCollectionName}) {
   return (
 
     <div>
@@ -24,6 +24,7 @@ export default function Modal4({setIsOpen4,setIsOpen5}) {
             </label></div>
             <div class="flex items-start m-2">
             <input
+              onChange={(e) => setContratAddress(e.target.value)}
               type="text"
               id="base-input"
               placeholder="Contrat Address"
@@ -42,6 +43,7 @@ export default function Modal4({setIsOpen4,setIsOpen5}) {
             </label></div>
             <div class="flex items-start m-2">
             <input
+              onChange={ (e) => setCollectionName(e.target.value)}
               type="text"
               id="base-input"
               placeholder="Collection Name"

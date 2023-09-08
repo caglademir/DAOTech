@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Modal3Team({ setIsOpen3, setIsOpen4 }) {
+export default function Modal3Team({ setIsOpen3, setIsOpen4 , setWallet , setStatus}) {
   const option = (e) => {
     setIsOpen3(false);
     console.log("tikladi");
@@ -31,6 +31,7 @@ export default function Modal3Team({ setIsOpen3, setIsOpen4 }) {
             </div>
             <div class="flex items-start m-2">
               <input
+                onChange={ (e) =>  setStatus(e.target.value)}
                 type="text"
                 id="base-input"
                 placeholder="status"
@@ -51,6 +52,7 @@ export default function Modal3Team({ setIsOpen3, setIsOpen4 }) {
             </div>
             <div class="flex items-start m-2">
               <input
+                onChange={(e) => setWallet(e.target.value)}
                 type="text"
                 id="base-input"
                 placeholder="wallet"

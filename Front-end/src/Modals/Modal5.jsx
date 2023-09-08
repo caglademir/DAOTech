@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Modal5() {
+export default function Modal5({allDaoInformation}) {
   return (
     <div>
             <div className="bg-white/20 p-4 ml-20 mr-20 rounded-lg">
@@ -34,7 +34,7 @@ export default function Modal5() {
              DAO NAME
             </label></div>
             <div class="flex items-start m-2 bg-white/20 rounded-lg p-2 text-gray-200">
-            DAO Name
+            {allDaoInformation.name}
             </div>
           </div>
           <div class=" grid col-rows-2 mt-4">

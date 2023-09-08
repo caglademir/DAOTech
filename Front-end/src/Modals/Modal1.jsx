@@ -1,6 +1,20 @@
 import React from "react";
 
-export default function Modal1({ setIsOpen1 }) {
+export default function Modal1({
+  setIsOpen1,
+  setDaoName,
+  setDaoSymbol,
+  daoName,
+  
+}) {
+  const handleNextClick = () => {
+    if (!daoName ) {
+      alert("Lütfen tüm inputları doldurun!");
+      return;
+    }
+    setIsOpen1(true);
+  };
+
   return (
     <div>
       <div className="bg-white/10 p-4 rounded-lg ml-20 mr-20">
@@ -9,7 +23,8 @@ export default function Modal1({ setIsOpen1 }) {
             for="dropzone-file"
             class="flex flex-col items-center justify-center w-[19%]  
                                         border-2 border-gray-300 border-dashed rounded-full bg-transparent
-                                        bg-white/25">
+                                        bg-white/25"
+          >
             <div class="flex flex-col items-center justify-center pt-5 pb-6">
               <svg
                 class="w-8 h-8 mb-4 text-gray-200 "
@@ -34,7 +49,7 @@ export default function Modal1({ setIsOpen1 }) {
             <input id="dropzone-file" type="file" class="hidden" />
           </label>
           <div class="ml-4 space-y-0.5 text-lg font-bold text-blue-400 text-left">
-            <div>DAO Name</div>
+            <div>{daoName}</div>
             <div class=" text-gray-500 dark:text-blue-300">DAO Symbol</div>
           </div>
         </div>
@@ -49,6 +64,7 @@ export default function Modal1({ setIsOpen1 }) {
             DAO Symbol
           </label>
           <input
+            onChange={(e) => setDaoSymbol(e.target.value)}
             type="text"
             id="base-input"
             placeholder="DAO"
@@ -66,6 +82,7 @@ export default function Modal1({ setIsOpen1 }) {
             DAO Name
           </label>
           <input
+            onChange={(e) => setDaoName(e.target.value)}
             type="text"
             id="base-input"
             placeholder="DAO Tech"
@@ -76,9 +93,7 @@ export default function Modal1({ setIsOpen1 }) {
       </div>
       <div className="">
         <button
-          onClick={() => {
-            setIsOpen1(true);
-          }}
+          onClick={handleNextClick}
           type="button"
           class="w-[40%] text-white bg-blue-700 hover:bg-blue-800 
                                     font-medium rounded-lg text-md px-5 py-2.5 text-center 

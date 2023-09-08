@@ -1,17 +1,22 @@
 import React, { useState } from "react";
 
-export default function Modal2({ setIsOpen2, setIsOpen3 }) {
+export default function Modal2({ setIsOpen1, setIsOpen3 , setNumberOfMembers }) {
   const [options, setOptions] = useState();
+
+   const prevPage = (e) =>{
+        console.log("tiklandiiiiiii")
+     setIsOpen1(false)
+   }
 
   const option = (e) => {
     setOptions(e.target.value);
-    console.log(options);
+    
   };
 
   const ways = (e) => {
     console.log(options);
     if (options === "CA") {
-      setIsOpen2(true);
+   
       console.log("tiklandi");
     } else if (options === "US") {
       setIsOpen3(true);
@@ -44,8 +49,9 @@ export default function Modal2({ setIsOpen2, setIsOpen3 }) {
               Number of Members
             </label></div>
             <div class="flex items-start">
-            <input
-              type="text"
+            <input 
+              onChange={(e)=> setNumberOfMembers(e.target.value)}
+              type="number"
               id="base-input"
               placeholder="Number of Members"
               class="bg-white/20 border-2 
@@ -53,8 +59,37 @@ export default function Modal2({ setIsOpen2, setIsOpen3 }) {
                   text-stone-200 block w-full p-2.5"/>
             </div>
       </div>
+      <div className="bg-transparent  mr-40 ml-40 rounded-lg mb-3">
+      <button
+       onClick={prevPage}
+       type="button"
+       class="w-full text-white bg-blue-700 hover:bg-blue-800 
+       focus:ring-4 focus:outline-none focus:ring-blue-300 
+       font-medium rounded-lg text-md px-5 py-2.5 text-center 
+       inline-flex items-center justify-center"
+     >
+       Back
+       <svg
+         class="w-3.5 h-3.5 ml-2"
+         aria-hidden="true"
+         xmlns="http://www.w3.org/2000/svg"
+         fill="none"
+         viewBox="0 0 14 10"
+       >
+         <path
+           stroke="currentColor"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-width="2"
+           d="M13 5H1m0 0L5 1M1 5l4 4"
+         />
+       </svg>
+     </button>
+      </div>
+    
       
       <div className="bg-transparent  mr-40 ml-40 rounded-lg">
+    
         <button
           onClick={ways}
           type="button"

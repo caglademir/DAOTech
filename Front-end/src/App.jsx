@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useEffect } from "react";
 import NavBar from "./Components/NavBar";
 import RoadMap from "./Components/RoadMap";
 import WhoAreWe from "./Components/WhoAreWe";
@@ -21,9 +22,41 @@ function App() {
   const [isOpen1, setIsOpen1] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false); //modal 3 dao
   const [isOpen3, setIsOpen3] = useState(false); //modal 3 team
-  const [isOpen4, setIsOpen4] = useState(false); //modal 4 
-  const [isOpen5, setIsOpen5] = useState(false); //modal 5 
+  const [isOpen4, setIsOpen4] = useState(false); //modal 4
+  const [isOpen5, setIsOpen5] = useState(false); //modal 5
 
+  //Degerler
+
+  const [daoName, setDaoName] = useState();
+  const [daoSymbol, setDaoSymbol] = useState();
+  const [numberOfMembers, setNumberOfMembers] = useState();
+  const [status, setStatus] = useState();
+  const [wallet, setWallet] = useState();
+  const [contratAddess, setContratAddress] = useState();
+  const [collectionName, setCollectionName] = useState();
+
+  const [allDaoInformation, setAllDaoInformation] = useState({
+    name: null,
+    symbol: null,
+    numberOfMembers: null,
+    status: null,
+    wallet: null,
+    contratAddess: null,
+    collectionName: null,
+  });
+
+  useEffect(() => {
+    setAllDaoInformation({
+      name: daoName, 
+      symbol: daoSymbol,
+      numberOfMembers :numberOfMembers,
+      status : status ,
+      wallet : wallet ,
+      contratAddess : contratAddess,
+      collectionName :  collectionName,
+
+    });
+  }, [daoName, daoSymbol , numberOfMembers,status ,wallet ,contratAddess, collectionName]);
 
   return (
     <>
@@ -48,7 +81,12 @@ function App() {
         <div>
           {!!isOpen && (
             <Modal setIsOpen={setIsOpen}>
-              <Modal1 setIsOpen1={setIsOpen1} />
+              <Modal1
+                setIsOpen1={setIsOpen1}
+                setDaoName={setDaoName}
+                setDaoSymbol={setDaoSymbol}
+                daoName={daoName}
+              />
             </Modal>
           )}
         </div>
@@ -61,7 +99,12 @@ function App() {
               setIsOpen2={setIsOpen2}
               setIsOpen3={setIsOpen3}
             >
-              <Modal2 setIsOpen2={setIsOpen2} setIsOpen3={setIsOpen3} />
+              <Modal2
+                setIsOpen1={setIsOpen1}
+                setIsOpen2={setIsOpen2}
+                setIsOpen3={setIsOpen3}
+                setNumberOfMembers={setNumberOfMembers}
+              />
             </Modal>
           )}
         </div>
@@ -88,7 +131,13 @@ function App() {
               setIsOpen3={setIsOpen3}
               setIsOpen4={setIsOpen4}
             >
-              <Modal3Team setIsOpen2={setIsOpen2} setIsOpen3={setIsOpen3}  setIsOpen4={setIsOpen4}/>
+              <Modal3Team
+                setIsOpen2={setIsOpen2}
+                setIsOpen3={setIsOpen3}
+                setIsOpen4={setIsOpen4}
+                setStatus={setStatus}
+                setWallet={setWallet}
+              />
             </Modal>
           )}
         </div>
@@ -109,6 +158,8 @@ function App() {
                 setIsOpen3={setIsOpen3}
                 setIsOpen4={setIsOpen4}
                 setIsOpen5={setIsOpen5}
+                setContratAddress={setContratAddress}
+                setCollectionName={setCollectionName}
               ></Modal4>
             </Modal>
           )}
@@ -131,12 +182,11 @@ function App() {
                 setIsOpen3={setIsOpen3}
                 setIsOpen4={setIsOpen4}
                 setIsOpen5={setIsOpen5}
+                allDaoInformation={allDaoInformation}
               ></Modal5>
             </Modal>
           )}
         </div>
-
-        
       </div>
     </>
   );

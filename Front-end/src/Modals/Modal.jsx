@@ -7,7 +7,7 @@ export default function Modal({
   setIsOpen2,
   setIsOpen3,
   setIsOpen4,
-  setIsOpen5
+  setIsOpen5,
 }) {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-20 backdrop-blur-lg flex justify-center items-center ">
