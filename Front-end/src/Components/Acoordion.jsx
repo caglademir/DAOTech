@@ -37,7 +37,7 @@ export default function
 
             aria-controls="accordion-collapse-body-1">
 
-            <span>What is Flowbite?</span>
+            <span>What is DAOTech and why was it established?</span>
             <svg
               data-accordion-icon
               class="w-3 h-3 rotate-180 shrink-0"
@@ -64,14 +64,10 @@ export default function
           <div class="p-5 bg-sky-950">
             <p
               class="mb-2 text-gray-200 dark:text-gray-400">
-              Flowbite is an open-source library of interactive components built on
-              top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
-            <p
-              class="text-gray-200 dark:text-gray-400">
-              Check out this guide to learn how to
-              get started
-              and start developing websites even faster with components on top of Tailwind CSS.</p>
-
+              DAOTech is a platform designed to facilitate the creation and management
+               of community-focused DAOs (Decentralized Autonomous Organizations). 
+               Its primary purpose is to assist users in bringing their projects to 
+               life, bringing communities together, and fostering innovation.</p>
           </div>
         </div>
         <h2 id="accordion-collapse-heading-2">
@@ -86,7 +82,7 @@ export default function
 
             aria-controls="accordion-collapse-body-2">
 
-            <span>Is there a Figma file available?</span>
+            <span>What are the features of DAOTech?</span>
             <svg
               data-accordion-icon
               class="w-3 h-3 rotate-180 shrink-0"
@@ -113,18 +109,156 @@ export default function
           <div class="p-5 bg-sky-950 dark:border-gray-700">
             <p
               class="mb-2 text-gray-200 dark:text-gray-400">
-              Flowbite is first conceptualized and designed using the Figma
-              software so everything you see in the library has a design equivalent
-              in our Figma file.</p>
-            <p
-              class="text-gray-200 dark:text-gray-400">
-              Check out the
-              Figma design system based on the utility classes from
-              Tailwind CSS and components from Flowbite.</p>
+              The platform provides users with the ability to easily create DAOs, 
+              launch crowdfunding campaigns, establish fair voting systems, and engage 
+              in effective communication. Additionally, DAO membership can be earned 
+              through contributions or purchasing shares.</p>
 
           </div>
         </div>
         <h2 id="accordion-collapse-heading-3">
+          <button
+            onClick={() => openAcoordion(2)}
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-200
+           bg-gray-900 hover:bg-gray-950 dark:hover:bg-gray-950
+           border border-2 border-gray-900"
+            data-accordion-target="#accordion-collapse-body-2"
+            aria-expanded="false"
+
+            aria-controls="accordion-collapse-body-3">
+
+            <span>What is the project roadmap, and what stages will it go through?</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-collapse-body-3"
+
+          class={`${isOpen1 ? 'hidden' : ''}`}
+          aria-labelledby="accordion-collapse-heading-2">
+          <div class="p-5 bg-sky-950 dark:border-gray-700">
+            <p
+              class="mb-2 text-gray-200 dark:text-gray-400">
+             In Phase 1, the foundational infrastructure will be established,
+              user-friendly interfaces and basic funding systems will be integrated.</p>
+            <p
+              class="mb-2 text-gray-200 dark:text-gray-400">
+            Next, in Phase 2, communication and participation will be strengthened,
+             and collaboration tools will be developed. In subsequent stages, smart 
+             contracts and advanced voting options will be added, the platform will 
+             be opened to international users, and decentralized governance mechanisms 
+             will be established.</p>
+          </div>
+        </div>
+        <h2 id="accordion-collapse-heading-4">
+          <button
+            onClick={() => openAcoordion(2)}
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-200
+           bg-gray-900 hover:bg-gray-950 dark:hover:bg-gray-950
+           border border-2 border-gray-900"
+            data-accordion-target="#accordion-collapse-body-2"
+            aria-expanded="false"
+
+            aria-controls="accordion-collapse-body-4">
+
+            <span>What is DAOTech's vision?</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-collapse-body-4"
+
+          class={`${isOpen1 ? 'hidden' : ''}`}
+          aria-labelledby="accordion-collapse-heading-2">
+          <div class="p-5 bg-sky-950 dark:border-gray-700">
+            <p
+              class="mb-2 text-gray-200 dark:text-gray-400">
+              DAOTech serves as a platform that encourages individuals to shape 
+              their visions through collaboration, democratizes community 
+              participation, and promotes innovation. By combining innovation, 
+              inclusivity, and visionary technology, it supports transformative 
+              projects and vibrant communities.</p>
+          
+          </div>
+        </div>
+        <h2 id="accordion-collapse-heading-5">
+          <button
+            onClick={() => openAcoordion(2)}
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-200
+           bg-gray-900 hover:bg-gray-950 dark:hover:bg-gray-950
+           border border-2 border-gray-900"
+            data-accordion-target="#accordion-collapse-body-2"
+            aria-expanded="false"
+
+            aria-controls="accordion-collapse-body-5">
+
+            <span>How can I participate in DAOTech?</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-collapse-body-5"
+
+          class={`${isOpen1 ? 'hidden' : ''}`}
+          aria-labelledby="accordion-collapse-heading-2">
+          <div class="p-5 bg-sky-950 dark:border-gray-700">
+            <p
+              class="mb-2 text-gray-200 dark:text-gray-400">
+              To join DAOTech, you can create your own DAO using the platform's 
+              user-friendly interface or contribute to existing DAOs. Additionally,
+               DAO membership can be earned through contributions or by purchasing shares.</p>
+         
+          </div>
+        </div>
+        <h2 id="accordion-collapse-heading-6">
           <button
             onClick={() => openAcoordion(3)}
             type="button"
@@ -133,8 +267,8 @@ export default function
             data-accordion-target="#accordion-collapse-body-3"
             aria-expanded="false"
 
-            aria-controls="accordion-collapse-body-3">
-            <span>What are the differences between Flowbite and Tailwind UI?</span>
+            aria-controls="accordion-collapse-body-6">
+            <span>How can I stay informed about project developments?</span>
             <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
 
@@ -142,22 +276,17 @@ export default function
           </button>
         </h2>
         <div
-          id="accordion-collapse-body-3"
+          id="accordion-collapse-body-6"
 
           class={`${isOpen2 ? 'hidden' : ''}`}
           aria-labelledby="accordion-collapse-heading-3">
           <div class="p-5 bg-sky-950 rounded-b-lg border border-2 border-gray-900">
             <p
               class="mb-2 text-gray-200 dark:text-gray-400">
-              The main difference is that the core components from Flowbite
-              are open source under the MIT license, whereas Tailwind UI is a
-              paid product. Another difference is that Flowbite relies on smaller
-              and standalone components, whereas Tailwind UI offers sections of pages.</p>
-            <p
-              class="mb-2 text-gray-200 dark:text-gray-400">
-              However, we actually recommend using both Flowbite, Flowbite Pro,
-              and even Tailwind UI as there is no technical reason stopping you
-              from using the best of two worlds.</p>
+              To monitor project development and contribute, you can track smart 
+              contracts in more detail. You can also access up-to-date information 
+              through DAOTech's official communication channels.</p>
+           
 
           </div>
         </div>

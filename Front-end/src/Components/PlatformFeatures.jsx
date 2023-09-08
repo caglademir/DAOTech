@@ -17,11 +17,11 @@ export default function
                         <div
                             className='h-10 flex justify-center bg-sky-950 rounded-full border-2 border-sky-400 mb-4'>
                         </div>
-                        <div><h4 className='text-2xl font-bold text-blue-400 text-left '>Intuitive User Interface</h4></div>
+                        <div><h4 className='text-2xl font-bold text-blue-400 text-left '>Rapid DAO Creation:</h4></div>
                         <div><p className='text-left text-sky-200'>
-                            Users can rapidly and effortlessly create their own DAOs using an
-                            intuitive user interface. These DAOs assist them in shaping their
-                            projects, uniting their communities, and encouraging innovation.
+                        Users can rapidly create their own DAOs with simple tools. 
+                        This allows them to guide their projects and bring their 
+                        communities together.
                         </p></div>
                     </div>
 
@@ -29,10 +29,10 @@ export default function
                         <div
                             className='h-10 flex justify-center bg-sky-950  rounded-full border-2 border-sky-400 mb-4'>
                         </div>
-                        <h4 className='text-2xl font-bold text-blue-400 text-left '>Smart Contract-Powered DAOs</h4>
+                        <h4 className='text-2xl font-bold text-blue-400 text-left '>Crowdfunding Supported by Smart Contracts: </h4>
                         <p className='text-left text-sky-200'>
-                            DAOs can launch mass fundraising
-                            campaigns and securely gather funds by being backed with smart contracts.
+                        DAOs can initiate secure crowdfunding campaigns supported 
+                        by smart contracts. Funds are collected and managed securely.
                         </p>
                     </div>
 
@@ -40,12 +40,11 @@ export default function
                         <div className='h-10 flex justify-center bg-sky-950  rounded-full border-2 border-sky-400 mb-4'>
 
                         </div>
-                        <h4 className='text-2xl font-bold text-blue-400 text-left '>Fair and Transparent Voting System</h4>
+                        <h4 className='text-2xl font-bold text-blue-400 text-left '>Transparent Voting System:</h4>
                         <p className='text-left text-sky-200'>
-                            The platform allows users
-                            to establish a just and transparent voting system for their ideas,
-                            suggestions, and projects. This empowers community members to collectively
-                            determine the future direction of projects.
+                        The platform provides users with a fair and transparent 
+                        voting system for ideas, suggestions, and projects. Community 
+                        members collectively determine the future of projects.
                         </p>
                     </div>
 
@@ -53,12 +52,11 @@ export default function
                         <div className=' h-10 flex justify-center bg-sky-950 rounded-full border-2 border-sky-400 mb-4'>
 
                         </div>
-                        <h4 className='text-2xl font-bold text-blue-400 text-left '>Integrated Communication Platform</h4>
+                        <h4 className='text-2xl font-bold text-blue-400 text-left '>Effective Communication Platform: </h4>
                         <p className='text-left text-sky-200'>
-                            An integrated communication
-                            platform enables effective communication and collaboration among DAO
-                            members. Private spaces provide an efficient environment for idea
-                            exchange and project development.
+                        An integrated communication platform enables DAO members 
+                        to communicate and collaborate effectively. Private spaces 
+                        provide an environment for idea exchange and project development.
                         </p>
                     </div>
 
@@ -66,11 +64,11 @@ export default function
                         <div className='h-10 flex justify-center bg-sky-950  rounded-full border-2 border-sky-400 mb-4'>
 
                         </div>
-                        <h4 className='text-2xl font-bold text-blue-400 text-left '>Earned DAO Membership</h4>
+                        <h4 className='text-2xl font-bold text-blue-400 text-left '>Engagement-Incentivizing Membership System:</h4>
                         <p className='text-left text-sky-200'>
-                            Membership in the DAO can be earned by c
-                            ontributing to the platform or purchasing shares. This fosters a
-                            more active and participatory community.
+                        DAO membership can be earned through contributions or by 
+                        purchasing shares. This encourages a more active and participatory 
+                        community.
                         </p>
                     </div>
 

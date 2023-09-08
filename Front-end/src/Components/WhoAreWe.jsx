@@ -9,7 +9,9 @@ export default function WhoAreWe() {
 
                 <div className='grid grid-cols-2 gap-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 '>
                     <div className='p-14'>
-                        <h2 className='text-left text-9xl font-medium text-sky-200'>Who are we?</h2>
+                        <h2 className='text-left text-9xl font-medium text-sky-200'>DAOTech: </h2>
+                        <h2 className='text-left text-4xl font-medium text-sky-200'>
+                        Shaping the Future of Communities Platform</h2>
                         <p className='text-3xl text-white text-left mt-6 '>
                             DAOTech is a platform that enables users to come together to create community-focused DAOs (Decentralized Autonomous Organizations) in order to realize their dreams and foster innovation.
                         </p>
