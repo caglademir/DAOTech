@@ -5,7 +5,7 @@ export default function Modal2({
   setIsOpen2,
   setIsOpen3,
   isOpen3,
-  setNumberOfMembers,
+ setDao
 }) {
   const [options, setOptions] = useState();
 
@@ -22,8 +22,7 @@ export default function Modal2({
     console.log(options);
     if (options === "CA") {
       setIsOpen2(true);
-    } else if (options === '"US"') {
-      console.log("team aktif");
+    } else if (options === 'US') {
       setIsOpen3(true)
       console.log(isOpen3);
     }
@@ -57,7 +56,7 @@ export default function Modal2({
         </div>
         <div class="flex items-start">
           <input
-            onChange={(e) => setNumberOfMembers(e.target.value)}
+            onChange={(e) => setDao((prev)=>({...prev,numberOfMembers:e.target.value}))}
             type="number"
             id="base-input"
             placeholder="Number of Members"

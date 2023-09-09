@@ -2,17 +2,11 @@ import React from "react";
 
 export default function Modal1({
   setIsOpen1,
-  setDaoName,
-  setDaoSymbol,
-  daoName,
-  daoSymbol,
+  setDao,
+  dao
 }) {
   const handleNextClick = () => {
-    if (!daoName || !daoSymbol) {
-      alert("Please fill out all inputs!");
-
-      return;
-    }
+  
     setIsOpen1(true);
   };
 
@@ -50,8 +44,8 @@ export default function Modal1({
             <input id="dropzone-file" type="file" class="hidden" />
           </label>
           <div class="ml-4 space-y-0.5 text-lg font-bold text-blue-400 text-left">
-            <div>{daoName}</div>
-            <div class=" text-gray-500 dark:text-blue-300">{daoSymbol}</div>
+            <div>{dao.name}</div>
+            <div class=" text-gray-500 dark:text-blue-300">{dao.symbol}</div>
           </div>
         </div>
       </div>
@@ -65,7 +59,7 @@ export default function Modal1({
             DAO Symbol
           </label>
           <input
-            onChange={(e) => setDaoSymbol(e.target.value)}
+            onChange={(e) => setDao((previous)=>({...previous,symbol:e.target.value}))}
             type="text"
             id="base-input"
             placeholder="DAO"
@@ -83,7 +77,7 @@ export default function Modal1({
             DAO Name
           </label>
           <input
-            onChange={(e) => setDaoName(e.target.value)}
+            onChange={(e) => setDao((previous)=>({...previous,name:e.target.value}))}
             type="text"
             id="base-input"
             placeholder="DAO Tech"

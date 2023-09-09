@@ -3,13 +3,12 @@ import React from "react";
 export default function Modal3Team({
   setIsOpen3,
   setIsOpen4,
-  setWallet,
-  setStatus,
+setDao
 }) {
-  const option = (e) => {
-    setIsOpen3(false);
-    console.log("tikladi");
-  };
+  // const option = (e) => {
+  //   setIsOpen3(false);
+  //   console.log("tikladi");
+  // };
   return (
     <div>
       <div className="text-3xl font-bold text-gray-200 ml-20 mb-2">
@@ -36,7 +35,7 @@ export default function Modal3Team({
             </div>
             <div class="flex items-start m-2">
               <input
-                onChange={(e) => setStatus(e.target.value)}
+                onChange={(e) => setDao((prev)=>({...prev,status:e.target.value}))}
                 type="text"
                 id="base-input"
                 placeholder="status"
@@ -57,7 +56,8 @@ export default function Modal3Team({
             </div>
             <div class="flex items-start m-2">
               <input
-                onChange={(e) => setWallet(e.target.value)}
+                onChange={(e) => setDao((prev)=>({...prev,wallet:e.target.value}))}
+
                 type="text"
                 id="base-input"
                 placeholder="wallet"
@@ -71,7 +71,7 @@ export default function Modal3Team({
       </div>
       <div className="bg-transparent  mr-40 ml-40 rounded-lg mb-3">
         <button
-          onClick={setIsOpen3(false)}
+          onClick={ ()=>  setIsOpen3(false)}
           type="button"
           class="w-full text-white bg-blue-700 hover:bg-blue-800 
        focus:ring-4 focus:outline-none focus:ring-blue-300 
