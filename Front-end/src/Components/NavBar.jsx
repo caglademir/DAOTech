@@ -59,24 +59,25 @@ export default function NavBar({ setIsOpen }) {
               Contact Us
             </a>
           </div>
+
+          
         </div>
-        <div id="button" className="flex justify-center items-center">
-          <button
-            onClick={openDao}
-            className="flex items-center bg-gradient-to-r 
-            from-blue-500 to-blue-800 hover:bg-gradient-to-bl
-             border-blue-400 font-bold p-5  
-             rounded-2xl "
-          >
-            Create New DAO
-            <img
-              src="src/img/chain.png"
-              alt="phantom-logo"
-              className="w-9 ml-2 "
-              md:invisible
-            />
-          </button>
-        </div>
+
+        <div
+                            id="button"
+                            className="flex items-center justify-center float-left mt-6 ">
+                            <button
+                                className="flex items-center bg-gradient-to-r from-blue-500 to-blue-800 hover:bg-gradient-to-bl border-blue-400 text-white font-bold p-5   rounded-2xl ">
+                                Connect to Phantom
+                                <img
+                                    src="src/img/ghost.png"
+                                    alt="phantom-logo"
+                                    className="w-9 ml-2 "
+                                    md: invisible
+                                />
+                            </button>
+                        </div>
+      
       </div>
     </motion.div>
   );

@@ -5,10 +5,11 @@ export default function Modal1({
   setDaoName,
   setDaoSymbol,
   daoName,
+  daoSymbol,
   
 }) {
   const handleNextClick = () => {
-    if (!daoName ) {
+    if (!daoName || !daoSymbol ) {
       alert("Lütfen tüm inputları doldurun!");
       return;
     }
@@ -50,7 +51,7 @@ export default function Modal1({
           </label>
           <div class="ml-4 space-y-0.5 text-lg font-bold text-blue-400 text-left">
             <div>{daoName}</div>
-            <div class=" text-gray-500 dark:text-blue-300">DAO Symbol</div>
+            <div class=" text-gray-500 dark:text-blue-300">{daoSymbol}</div>
           </div>
         </div>
       </div>

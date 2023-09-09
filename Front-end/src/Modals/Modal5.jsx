@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Modal5({allDaoInformation}) {
+export default function Modal5({allDaoInformation , setIsModel5}) {
   return (
     <div>
             <div className="bg-white/20 p-4 ml-20 mr-20 rounded-lg">
@@ -51,6 +51,33 @@ export default function Modal5({allDaoInformation}) {
           </div>
           
         </div>
+      </div>
+      <div className="bg-transparent  mr-40 ml-40 rounded-lg mb-3">
+      <button
+       onClick={setIsModel5(false)}
+       type="button"
+       class="w-full text-white bg-blue-700 hover:bg-blue-800 
+       focus:ring-4 focus:outline-none focus:ring-blue-300 
+       font-medium rounded-lg text-md px-5 py-2.5 text-center 
+       inline-flex items-center justify-center"
+     >
+       Back
+       <svg
+         class="w-3.5 h-3.5 ml-2"
+         aria-hidden="true"
+         xmlns="http://www.w3.org/2000/svg"
+         fill="none"
+         viewBox="0 0 14 10"
+       >
+         <path
+           stroke="currentColor"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-width="2"
+           d="M13 5H1m0 0L5 1M1 5l4 4"
+         />
+       </svg>
+     </button>
       </div>
       <div className="bg-transparent mt-10 mr-40 ml-40 rounded-lg">
         <button

@@ -19,7 +19,7 @@ import Modal5 from "./Modals/Modal5";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
-  const [isOpen1, setIsOpen1] = useState(false);
+  const [isOpen1, setIsOpen1] = useState(false); //model 2 open
   const [isOpen2, setIsOpen2] = useState(false); //modal 3 dao
   const [isOpen3, setIsOpen3] = useState(false); //modal 3 team
   const [isOpen4, setIsOpen4] = useState(false); //modal 4
@@ -36,35 +36,35 @@ function App() {
   const [collectionName, setCollectionName] = useState();
 
   const [allDaoInformation, setAllDaoInformation] = useState({
-    name: null,
-    symbol: null,
-    numberOfMembers: null,
-    status: null,
-    wallet: null,
-    contratAddess: null,
-    collectionName: null,
+    name: daoName,
+    symbol: daoSymbol,
+    numberOfMembers: numberOfMembers,
+    status: status,
+    wallet: wallet,
+    contratAddess: contratAddess,
+    collectionName: collectionName,
   });
 
-  useEffect(() => {
-    setAllDaoInformation({
-      name: daoName, 
-      symbol: daoSymbol,
-      numberOfMembers :numberOfMembers,
-      status : status ,
-      wallet : wallet ,
-      contratAddess : contratAddess,
-      collectionName :  collectionName,
+  // useEffect(() => {
+  //   setAllDaoInformation({
+  //     name: daoName,
+  //     symbol: daoSymbol,
+  //     numberOfMembers :numberOfMembers,
+  //     status : status ,
+  //     wallet : wallet ,
+  //     contratAddess : contratAddess,
+  //     collectionName :  collectionName,
 
-    });
-  }, [daoName, daoSymbol , numberOfMembers,status ,wallet ,contratAddess, collectionName]);
+  //   });
+  // }, [daoName, daoSymbol , numberOfMembers,status ,wallet ,contratAddess, collectionName]);
 
   return (
     <>
       <div className="h-full bg-gradient-to-r from-gray-950 via-sky-800 to-gray-950">
         <div className="bg-cover bg-no-repeat bg-center bg-[url(/src/img/welcome.png)]">
-          <NavBar setIsOpen={setIsOpen}></NavBar>
+          <NavBar></NavBar>
 
-          <WhoAreWe></WhoAreWe>
+          <WhoAreWe openDao={setIsOpen}></WhoAreWe>
         </div>
 
         <div className="bg-cover bg-no-repeat bg-[url(/src/img/vision.png)]">
@@ -86,6 +86,7 @@ function App() {
                 setDaoName={setDaoName}
                 setDaoSymbol={setDaoSymbol}
                 daoName={daoName}
+                daoSymbol={daoSymbol}
               />
             </Modal>
           )}
@@ -103,6 +104,7 @@ function App() {
                 setIsOpen1={setIsOpen1}
                 setIsOpen2={setIsOpen2}
                 setIsOpen3={setIsOpen3}
+                isOpen3={isOpen3}
                 setNumberOfMembers={setNumberOfMembers}
               />
             </Modal>
@@ -117,13 +119,17 @@ function App() {
               setIsOpen2={setIsOpen2}
               setIsOpen3={setIsOpen3}
             >
-              <Modal3Dao />
+              <Modal3Dao
+                setIsOpen={setIsOpen}
+                setIsOpen1={setIsOpen1}
+                setIsOpen2={setIsOpen2}
+              />
             </Modal>
           )}
         </div>
 
         <div>
-          {!!isOpen3 && (
+          {isOpen3 && (
             <Modal
               setIsOpen={setIsOpen}
               setIsOpen1={setIsOpen1}
