@@ -21,7 +21,7 @@ export default function
                         <div class="p-6">
                             <h5
                                 class=" mb-2 text-2xl font-bold leading-tight text-gray-100">
-                                Rapid <br></br> DAO Creation
+                                Rapid <br></br>DAO Creation
                             </h5>
                             <p class=" mb-4 text-base text-neutral-600 dark:text-neutral-200">
                             Users can rapidly create their own DAOs with simple tools. This allows them to guide their projects and bring their communities together.
