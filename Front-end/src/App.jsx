@@ -64,10 +64,8 @@ function App() {
         <div className="bg-cover bg-no-repeat bg-center bg-[url(/src/img/welcome.png)]">
           <NavBar></NavBar>
 
-
-          <WhoAreWe openDao={setIsOpen}></WhoAreWe>
+          <WhoAreWe setIsOpen={setIsOpen}></WhoAreWe>
         </div>
-
 
         <div className="bg-cover bg-no-repeat bg-[url(/src/img/vision.png)]">
           <PlatformFeatures></PlatformFeatures>
@@ -123,15 +121,15 @@ function App() {
             >
               <Modal3Dao
                 setIsOpen={setIsOpen}
-                setIsOpen1={setIsOpen1}
                 setIsOpen2={setIsOpen2}
+                setIsOpen4={setIsOpen4}
               />
             </Modal>
           )}
         </div>
 
         <div>
-          {isOpen3 && (
+          {!!isOpen3 && (
             <Modal
               setIsOpen={setIsOpen}
               setIsOpen1={setIsOpen1}
@@ -160,10 +158,7 @@ function App() {
               setIsOpen4={setIsOpen4}
             >
               <Modal4
-                setIsOpen={setIsOpen}
-                setIsOpen1={setIsOpen1}
-                setIsOpen2={setIsOpen2}
-                setIsOpen3={setIsOpen3}
+             
                 setIsOpen4={setIsOpen4}
                 setIsOpen5={setIsOpen5}
                 setContratAddress={setContratAddress}
@@ -184,10 +179,6 @@ function App() {
               setIsOpen5={setIsOpen5}
             >
               <Modal5
-                setIsOpen={setIsOpen}
-                setIsOpen1={setIsOpen1}
-                setIsOpen2={setIsOpen2}
-                setIsOpen3={setIsOpen3}
                 setIsOpen4={setIsOpen4}
                 setIsOpen5={setIsOpen5}
                 allDaoInformation={allDaoInformation}

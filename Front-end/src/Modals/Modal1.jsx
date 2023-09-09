@@ -6,11 +6,9 @@ export default function Modal1({
   setDaoSymbol,
   daoName,
   daoSymbol,
-  
 }) {
   const handleNextClick = () => {
-
-    if (!daoName || !daoSymbol ) {
+    if (!daoName || !daoSymbol) {
       alert("Please fill out all inputs!");
 
       return;
@@ -19,7 +17,7 @@ export default function Modal1({
   };
 
   return (
-    <div  className="">
+    <div className="">
       <div className="bg-white/10 p-4 rounded-lg ml-20 mr-20">
         <div class="flex items-center justify-center">
           <label

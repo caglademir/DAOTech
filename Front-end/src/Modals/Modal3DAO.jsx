@@ -1,6 +1,14 @@
 import React from "react";
 
-export default function Modal3Dao({ }) {
+export default function Modal3Dao({ setIsOpen2 , setIsOpen4}) {
+
+  const prevPage = () => {
+    setIsOpen2(false);
+  }
+  const nextPage = () => {
+    setIsOpen4(true);
+  }  
+
   return (
     <div>
        <div className="text-3xl font-bold text-gray-200 ml-20 mb-2">
@@ -35,60 +43,63 @@ export default function Modal3Dao({ }) {
           </div>
         </div>
       </div>
-      <div className="bg-transparent  mr-40 ml-40 rounded-lg mb-3">
-      <button
-       
-       type="button"
-       class="w-full text-white bg-blue-700 hover:bg-blue-800 
+      <div className="grid grid-cols-2 justify-stretch mt-[10%]">
+        <div className="bg-transparent  rounded-lg ml-[16%] justify-self-start ">
+          <button
+            onClick={prevPage}
+            type="button"
+            class="w-full text-white bg-blue-700 hover:bg-blue-800 
        focus:ring-4 focus:outline-none focus:ring-blue-300 
        font-medium rounded-lg text-md px-5 py-2.5 text-center 
        inline-flex items-center justify-center"
-     >
-       Back
-       <svg
-         class="w-3.5 h-3.5 ml-2"
-         aria-hidden="true"
-         xmlns="http://www.w3.org/2000/svg"
-         fill="none"
-         viewBox="0 0 14 10"
-       >
-         <path
-           stroke="currentColor"
-           stroke-linecap="round"
-           stroke-linejoin="round"
-           stroke-width="2"
-           d="M13 5H1m0 0L5 1M1 5l4 4"
-         />
-       </svg>
-     </button>
-      </div>
-      <div className="bg-transparent mt-10 mr-40 ml-40 rounded-lg">
-        <button
-          type="button"
-          class="w-full text-white bg-blue-700 hover:bg-blue-800 
+          >
+            <svg
+              class="w-3.5 h-3.5 ml-2"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 5H1m0 0L5 1M1 5l4 4"
+              />
+            </svg>
+             &nbsp; Back 
+          </button>
+        </div>
+
+        <div className="bg-transparent  rounded-lg mr-[16%] justify-self-end  ">
+          <button
+            onClick={nextPage}
+            type="button"
+            class="w-full text-white bg-blue-700 hover:bg-blue-800 
             focus:ring-4 focus:outline-none focus:ring-blue-300 
             font-medium rounded-lg text-md px-5 py-2.5 text-center 
             inline-flex items-center justify-center"
-        >
-          Next Step
-          <svg
-            class="w-3.5 h-3.5 ml-2"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 14 10"
           >
-            <path
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M1 5h12m0 0L9 1m4 4L9 9"
-            />
-          </svg>
-        </button>
+            Next Step
+            <svg
+              class="w-3.5 h-3.5 ml-2"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9"
+              />
+            </svg>
+          </button>
+        </div>
       </div>
-
     </div>
   );
 }
