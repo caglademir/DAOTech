@@ -64,8 +64,10 @@ function App() {
         <div className="bg-cover bg-no-repeat bg-center bg-[url(/src/img/welcome.png)]">
           <NavBar></NavBar>
 
+
           <WhoAreWe openDao={setIsOpen}></WhoAreWe>
         </div>
+
 
         <div className="bg-cover bg-no-repeat bg-[url(/src/img/vision.png)]">
           <PlatformFeatures></PlatformFeatures>

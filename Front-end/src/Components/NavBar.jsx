@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+
 export default function NavBar({ setIsOpen }) {
   const openDao = (e) => {
     setIsOpen(true);
@@ -7,11 +7,7 @@ export default function NavBar({ setIsOpen }) {
   };
 
   return (
-    <motion.div
-      initial={{ opacity: 1, scale: 0.5, x : -100  }}
-      animate={{ opacity: 1, scale: 1  , x:0 }}
-      transition={{ duration: 2 }}
-    >
+
       <div className="grid grid-cols-5 gap-2">
         <div className="flex justify-center items-center p-2">
           <img
@@ -23,7 +19,7 @@ export default function NavBar({ setIsOpen }) {
         <div className="col-span-3 flex justify-center items-center">
           <div className="text-center text-xl lg:flex-grow">
             <a
-              href="#whoWeAre"
+              href="#whoAreWe"
               className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 mr-6 "
             >
               Who are we?
@@ -79,6 +75,6 @@ export default function NavBar({ setIsOpen }) {
                         </div>
       
       </div>
-    </motion.div>
+
   );
 }

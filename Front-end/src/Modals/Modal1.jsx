@@ -9,15 +9,17 @@ export default function Modal1({
   
 }) {
   const handleNextClick = () => {
+
     if (!daoName || !daoSymbol ) {
-      alert("Lütfen tüm inputları doldurun!");
+      alert("Please fill out all inputs!");
+
       return;
     }
     setIsOpen1(true);
   };
 
   return (
-    <div>
+    <div  className="">
       <div className="bg-white/10 p-4 rounded-lg ml-20 mr-20">
         <div class="flex items-center justify-center">
           <label

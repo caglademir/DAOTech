@@ -1,14 +1,13 @@
 import React from "react";
-// import Typewriter from "typewriter-effect";
+
 
 export default function () {
   return (
     <div id="platformFeatures">
       <div className="p-16">
         <h2 className="text-center text-9xl font-medium text-sky-200 p-4 mb-10">
-        
+         PlatformFutures
         </h2>
-
         <div className="grid grid-cols-5 xl:grid-cols-5 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-2">
           <div className="bg-white/20 rounded-lg p-8 grid rows-3 border hover:border-4 border-sky-400">
             <div className="h-10 flex justify-center bg-sky-950 rounded-full border-2 border-sky-400 mb-4"></div>
@@ -78,35 +77,3 @@ export default function () {
   );
 }
 
-{
-  /* <p className='text-2xl text-white text-left bg-white/10 p-8 rounded-2xl'>
-                <ul>
-                    <li> <span className='text-3xl font-bold text-sky-600'>- Intuitive User Interface: </span> 
-                        Users can rapidly and effortlessly create their own DAOs using an 
-                        intuitive user interface. These DAOs assist them in shaping their 
-                        projects, uniting their communities, and encouraging innovation.
-                    </li>
-                    <li> <span className='text-3xl font-bold text-sky-600'>- Smart Contract-Powered DAOs: </span> 
-                        DAOs can launch mass fundraising 
-                        campaigns and securely gather funds by being backed with smart contracts.
-                    </li>
-                    <li> <span className='text-3xl font-bold text-sky-600'>- Fair and Transparent Voting System: </span> 
-                        The platform allows users 
-                        to establish a just and transparent voting system for their ideas, 
-                        suggestions, and projects. This empowers community members to collectively 
-                        determine the future direction of projects.
-                    </li>
-                    <li> <span className='text-3xl font-bold text-sky-600'>- Integrated Communication Platform: </span>
-                        An integrated communication 
-                        platform enables effective communication and collaboration among DAO 
-                        members. Private spaces provide an efficient environment for idea 
-                        exchange and project development.
-                    </li>
-                    <li> <span className='text-3xl font-bold text-sky-600'>- Earned DAO Membership: </span>
-                        Membership in the DAO can be earned by c
-                        ontributing to the platform or purchasing shares. This fosters a 
-                        more active and participatory community.
-                    </li>
-                </ul>
-            </p> */
-}

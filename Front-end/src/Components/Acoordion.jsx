@@ -6,6 +6,10 @@ export default function
   const [isOpen, setIsOpen] = useState(false)
   const [isOpen1, setIsOpen1] = useState(false)
   const [isOpen2, setIsOpen2] = useState(false)
+  const [isOpen3, setIsOpen3] = useState(false)
+  const [isOpen4, setIsOpen4] = useState(false)
+  const [isOpen5, setIsOpen5] = useState(false)
+ 
 
   const openAcoordion = (id) => {
     switch (id) {
@@ -14,10 +18,16 @@ export default function
       case 2: setIsOpen1(!isOpen1)
         break;
       case 3: setIsOpen2(!isOpen2)
+        break;
+      case 4: setIsOpen3(!isOpen3)
+        break;
+      case 5: setIsOpen4(!isOpen4)
+        break;
+      case 6: setIsOpen5(!isOpen5)
     }
   }
   return (
-    <div className='p-8'>
+    <div id="FAQ" className='p-8'>
       <h2 className='text-center text-9xl font-medium text-sky-200 mt-16'>Frequently Asked Questions</h2>
 
 
@@ -31,7 +41,7 @@ export default function
             type="button"
             class="flex items-center justify-between w-full p-5 
             font-medium text-left text-gray-200 hover:bg-gray-950
-            border border-2 border-gray-900 rounded-t-lg"
+            border-b border-gray-600 rounded-t-lg"
             data-accordion-target="#accordion-collapse-body-1"
             aria-expanded="true"
 
@@ -76,7 +86,7 @@ export default function
             type="button"
             class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-200
            bg-gray-900 hover:bg-gray-950 dark:hover:bg-gray-950
-           border border-2 border-gray-900"
+           border-b border-gray-600  "
             data-accordion-target="#accordion-collapse-body-2"
             aria-expanded="false"
 
@@ -118,11 +128,11 @@ export default function
         </div>
         <h2 id="accordion-collapse-heading-3">
           <button
-            onClick={() => openAcoordion(2)}
+            onClick={() => openAcoordion(3)}
             type="button"
             class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-200
            bg-gray-900 hover:bg-gray-950 dark:hover:bg-gray-950
-           border border-2 border-gray-900"
+           border-b border-gray-600"
             data-accordion-target="#accordion-collapse-body-2"
             aria-expanded="false"
 
@@ -150,7 +160,7 @@ export default function
         <div
           id="accordion-collapse-body-3"
 
-          class={`${isOpen1 ? 'hidden' : ''}`}
+          class={`${isOpen2 ? 'hidden' : ''}`}
           aria-labelledby="accordion-collapse-heading-2">
           <div class="p-5 bg-sky-950 dark:border-gray-700">
             <p
@@ -168,11 +178,11 @@ export default function
         </div>
         <h2 id="accordion-collapse-heading-4">
           <button
-            onClick={() => openAcoordion(2)}
+            onClick={() => openAcoordion(4)}
             type="button"
             class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-200
            bg-gray-900 hover:bg-gray-950 dark:hover:bg-gray-950
-           border border-2 border-gray-900"
+           border-b border-gray-600"
             data-accordion-target="#accordion-collapse-body-2"
             aria-expanded="false"
 
@@ -200,7 +210,7 @@ export default function
         <div
           id="accordion-collapse-body-4"
 
-          class={`${isOpen1 ? 'hidden' : ''}`}
+          class={`${isOpen3 ? 'hidden' : ''}`}
           aria-labelledby="accordion-collapse-heading-2">
           <div class="p-5 bg-sky-950 dark:border-gray-700">
             <p
@@ -215,11 +225,11 @@ export default function
         </div>
         <h2 id="accordion-collapse-heading-5">
           <button
-            onClick={() => openAcoordion(2)}
+            onClick={() => openAcoordion(5)}
             type="button"
             class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-200
            bg-gray-900 hover:bg-gray-950 dark:hover:bg-gray-950
-           border border-2 border-gray-900"
+           border-b border-gray-600"
             data-accordion-target="#accordion-collapse-body-2"
             aria-expanded="false"
 
@@ -247,7 +257,7 @@ export default function
         <div
           id="accordion-collapse-body-5"
 
-          class={`${isOpen1 ? 'hidden' : ''}`}
+          class={`${isOpen4 ? 'hidden' : ''}`}
           aria-labelledby="accordion-collapse-heading-2">
           <div class="p-5 bg-sky-950 dark:border-gray-700">
             <p
@@ -260,10 +270,10 @@ export default function
         </div>
         <h2 id="accordion-collapse-heading-6">
           <button
-            onClick={() => openAcoordion(3)}
+            onClick={() => openAcoordion(6)}
             type="button"
             class="flex items-center justify-between w-full p-5 font-medium text-left 
-          text-gray-200 bg-gray-900 hover:bg-gray-950 border border-2 border-gray-900"
+          text-gray-200 bg-gray-900 hover:bg-gray-950 border-b border-gray-600"
             data-accordion-target="#accordion-collapse-body-3"
             aria-expanded="false"
 
@@ -278,7 +288,7 @@ export default function
         <div
           id="accordion-collapse-body-6"
 
-          class={`${isOpen2 ? 'hidden' : ''}`}
+          class={`${isOpen5 ? 'hidden' : ''}`}
           aria-labelledby="accordion-collapse-heading-3">
           <div class="p-5 bg-sky-950 rounded-b-lg border border-2 border-gray-900">
             <p
