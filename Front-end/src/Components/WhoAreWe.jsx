@@ -18,7 +18,7 @@ export default function WhoAreWe({setIsOpen}) {
                             <Link to={'/createDao'}>
                             <button
                             
-                             className="flex items-center bg-gradient-to-r from-blue-500 to-blue-800 hover:bg-gradient-to-bl border-blue-400 text-white font-bold p-5  rounded-lg ">
+                             className="flex items-center bg-gradient-to-r from-blue-500 to-blue-800 hover:bg-gradient-to-bl border-blue-400 text-white font-bold p-4 rounded-lg ">
                                 Create a Dao
                                
                             </button>
