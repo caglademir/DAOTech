@@ -185,7 +185,7 @@ export default function
            border-b border-gray-600"
             data-accordion-target="#accordion-collapse-body-2"
             aria-expanded="false"
-
+            
             aria-controls="accordion-collapse-body-4">
 
             <span>What is DAOTech's vision?</span>
