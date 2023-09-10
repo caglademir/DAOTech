@@ -15,11 +15,11 @@ export default function Footer() {
       </div>
       <div className='grid grid-cols-5 text-white mt-14'>
         <div></div>
-        <div className='flex justify-end text-xl font-bold text-gray-200'>
+        <div className='flex justify-end text-xl font-anton text-gray-200'>
           phone: &nbsp; <a className='hover:underline hover:text-lg text-gray-400' href="tel:+905000000000">
             +90 555 444 33 22</a></div>
         <div className='flex justify-center text-3xl w-full'>I</div>
-        <div className='flex justify-start text-xl font-bold text-gray-200'>
+        <div className='flex justify-start text-xl font-anton text-gray-200'>
           e-mail: &nbsp;<a className='hover:underline hover:text-lg text-gray-400' href="mailto:test@example.com">
             test@example.com</a></div>
         <div></div>

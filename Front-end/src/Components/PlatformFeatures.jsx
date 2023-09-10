@@ -19,7 +19,7 @@ export default function  PlatformFeatures () {
                             alt="" />
                         <div class="p-6">
                             <h5
-                                class=" mb-2 text-2xl  leading-tight text-gray-100 font-anton">
+                                class=" mb-2 text-2xl  leading-tight text-sky-300 font-anton">
                                 Rapid <br></br>DAO Creation
                             </h5>
                             <p class=" mb-4 text-base text-neutral-600 dark:text-neutral-200 font-anton">
@@ -35,7 +35,7 @@ export default function  PlatformFeatures () {
                             alt="" />
                         <div class="p-6">
                             <h5
-                                class="mb-2 text-2xl leading-tight text-gray-100 font-anton">
+                                class="mb-2 text-2xl leading-tight  text-sky-300 font-anton">
                                 Crowdfunding Supported by Smart Contracts
                             </h5>
                             <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200 font-anton">
@@ -51,7 +51,7 @@ export default function  PlatformFeatures () {
                             alt="" />
                         <div class="p-6">
                             <h5
-                                class="mb-2 text-2xl leading-tight text-gray-100 font-anton">
+                                class="mb-2 text-2xl leading-tight  text-sky-300 font-anton">
                                 Transparent <br></br> Voting System
                             </h5>
                             <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200 font-anton">
@@ -67,7 +67,7 @@ export default function  PlatformFeatures () {
                             alt="" />
                         <div class="p-6">
                             <h5
-                                class="mb-2 text-2xl leading-tight text-gray-100 font-anton">
+                                class="mb-2 text-2xl leading-tight  text-sky-300 font-anton">
                                 Effective Communication Platform
                             </h5>
                             <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200 font-anton">
@@ -83,7 +83,7 @@ export default function  PlatformFeatures () {
                             alt="" />
                         <div class="p-6">
                             <h5
-                                class="mb-2 text-2xl leading-tight text-gray-100 font-anton">
+                                class="mb-2 text-2xl leading-tight  text-sky-300 font-anton">
                                Engagement-Incentivizing Membership System
                             </h5>
                             <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200 font-anton">

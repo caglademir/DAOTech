@@ -73,7 +73,7 @@ export default function
           aria-labelledby="accordion-collapse-heading-1">
           <div class="p-5 bg-sky-950">
             <p
-              class="mb-2 text-gray-200 dark:text-gray-400">
+              class="mb-2 text-gray-200 dark:text-gray-400 font-anton">
               DAOTech is a platform designed to facilitate the creation and management
                of community-focused DAOs (Decentralized Autonomous Organizations). 
                Its primary purpose is to assist users in bringing their projects to 
@@ -92,7 +92,7 @@ export default function
 
             aria-controls="accordion-collapse-body-2">
 
-            <span>What are the features of DAOTech?</span>
+            <span className="font-anton">What are the features of DAOTech?</span>
             <svg
               data-accordion-icon
               class="w-3 h-3 rotate-180 shrink-0"
@@ -118,7 +118,7 @@ export default function
           aria-labelledby="accordion-collapse-heading-2">
           <div class="p-5 bg-sky-950 dark:border-gray-700">
             <p
-              class="mb-2 text-gray-200 dark:text-gray-400">
+              class="mb-2 text-gray-200 dark:text-gray-400 font-anton">
               The platform provides users with the ability to easily create DAOs, 
               launch crowdfunding campaigns, establish fair voting systems, and engage 
               in effective communication. Additionally, DAO membership can be earned 
@@ -138,7 +138,7 @@ export default function
 
             aria-controls="accordion-collapse-body-3">
 
-            <span>What is the project roadmap, and what stages will it go through?</span>
+            <span className="font-anton">What is the project roadmap, and what stages will it go through?</span>
             <svg
               data-accordion-icon
               class="w-3 h-3 rotate-180 shrink-0"
@@ -164,11 +164,11 @@ export default function
           aria-labelledby="accordion-collapse-heading-2">
           <div class="p-5 bg-sky-950 dark:border-gray-700">
             <p
-              class="mb-2 text-gray-200 dark:text-gray-400">
+              class="mb-2 text-gray-200 dark:text-gray-400 font-anton">
              In Phase 1, the foundational infrastructure will be established,
               user-friendly interfaces and basic funding systems will be integrated.</p>
             <p
-              class="mb-2 text-gray-200 dark:text-gray-400">
+              class="mb-2 text-gray-200 dark:text-gray-400 font-anton">
             Next, in Phase 2, communication and participation will be strengthened,
              and collaboration tools will be developed. In subsequent stages, smart 
              contracts and advanced voting options will be added, the platform will 
@@ -188,7 +188,7 @@ export default function
             
             aria-controls="accordion-collapse-body-4">
 
-            <span>What is DAOTech's vision?</span>
+            <span className="font-anton">What is DAOTech's vision?</span>
             <svg
               data-accordion-icon
               class="w-3 h-3 rotate-180 shrink-0"
@@ -214,7 +214,7 @@ export default function
           aria-labelledby="accordion-collapse-heading-2">
           <div class="p-5 bg-sky-950 dark:border-gray-700">
             <p
-              class="mb-2 text-gray-200 dark:text-gray-400">
+              class="mb-2 text-gray-200 dark:text-gray-400 font-anton">
               DAOTech serves as a platform that encourages individuals to shape 
               their visions through collaboration, democratizes community 
               participation, and promotes innovation. By combining innovation, 
@@ -235,7 +235,7 @@ export default function
 
             aria-controls="accordion-collapse-body-5">
 
-            <span>How can I participate in DAOTech?</span>
+            <span className="font-anton">How can I participate in DAOTech?</span>
             <svg
               data-accordion-icon
               class="w-3 h-3 rotate-180 shrink-0"
@@ -261,7 +261,7 @@ export default function
           aria-labelledby="accordion-collapse-heading-2">
           <div class="p-5 bg-sky-950 dark:border-gray-700">
             <p
-              class="mb-2 text-gray-200 dark:text-gray-400">
+              class="mb-2 text-gray-200 dark:text-gray-400 font-anton">
               To join DAOTech, you can create your own DAO using the platform's 
               user-friendly interface or contribute to existing DAOs. Additionally,
                DAO membership can be earned through contributions or by purchasing shares.</p>
@@ -278,7 +278,7 @@ export default function
             aria-expanded="false"
 
             aria-controls="accordion-collapse-body-6">
-            <span>How can I stay informed about project developments?</span>
+            <span className="font-anton">How can I stay informed about project developments?</span>
             <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
 
@@ -292,7 +292,7 @@ export default function
           aria-labelledby="accordion-collapse-heading-3">
           <div class="p-5 bg-sky-950 rounded-b-lg border border-2 border-gray-900">
             <p
-              class="mb-2 text-gray-200 dark:text-gray-400">
+              class="mb-2 text-gray-200 dark:text-gray-400 font-anton">
               To monitor project development and contribute, you can track smart 
               contracts in more detail. You can also access up-to-date information 
               through DAOTech's official communication channels.</p>

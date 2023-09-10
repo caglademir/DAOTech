@@ -63,7 +63,7 @@ export default function NavBar({ setIsOpen }) {
                             id="button"
                             className="flex items-center justify-center float-left  ">
                             <button
-                                className="flex items-center bg-gradient-to-r from-blue-500 to-blue-800 hover:bg-gradient-to-bl border-blue-400 text-white font-bold p-2 py-6 rounded-lg h-[15%] mr-10 ">
+                                className="flex items-center bg-gradient-to-r from-blue-500 to-blue-800 hover:bg-gradient-to-bl border-blue-400 text-gray-200 font-anton p-2 py-6 rounded-lg h-[15%] mr-10 ">
                                 Connect to Phantom
                                 <img
                                     src="src/img/ghost.png"
