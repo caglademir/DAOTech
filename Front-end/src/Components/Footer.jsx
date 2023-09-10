@@ -63,7 +63,7 @@ export default function Footer() {
 
       <div class="w-full max-w-screen-xl mx-auto  md:py-8">
 
-        <span class="block text-lg text-gray-200 sm:text-center ">© 2023  &nbsp;<a href="*" class="hover:underline">DAO Tech.</a>&nbsp; &nbsp; All Rights Reserved.</span>
+        <span class="block text-lg text-gray-200 sm:text-center font-anton">© 2023  &nbsp;<a href="*" class="hover:underline">DAO Tech.</a>&nbsp; &nbsp; All Rights Reserved.</span>
       </div>
 
 

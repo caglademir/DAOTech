@@ -3,7 +3,7 @@ import React from "react";
 export default function RoadMap() {
   return (
     <div id="roadMap">
-      <h2 className="text-center text-9xl font-medium text-sky-200 p-8  ">
+      <h2 className="text-center text-9xl font-anton text-sky-200 p-8  ">
         RoadMap
       </h2>
 
