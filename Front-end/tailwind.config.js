@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         'anton': ['Anton', 'sans-serif'], // 'anton' adında bir sınıf ekledik. İsmi istediğiniz gibi değiştirebilirsiniz.
+        'antonio': ['Antonio', 'sans-serif'],
       },
     },
   },

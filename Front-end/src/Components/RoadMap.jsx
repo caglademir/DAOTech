@@ -27,7 +27,7 @@ export default function RoadMap() {
                   <time class="text-xs tracking-wide uppercase dark:text-gray-400 font-anton">
                     Phase 1
                   </time>
-                  <p class="mt-3 font-anton">
+                  <p class="mt-3 font-antonio">
                     User registration and login are established. An interface
                     for creating DAOs is integrated. Basic funding system is
                     supported by smart contracts. Users can create profiles to
@@ -41,7 +41,7 @@ export default function RoadMap() {
                   <time class="text-xs tracking-wide uppercase dark:text-gray-400 font-anton">
                     Phase 2
                   </time>
-                  <p class="mt-3 font-anton">
+                  <p class="mt-3 font-antonio">
                     An internal communication platform promotes effective
                     discussions among DAO members. Collaboration tools are
                     improved for sharing ideas and forming partnerships.
@@ -55,7 +55,7 @@ export default function RoadMap() {
                   <time class="text-xs tracking-wide uppercase dark:text-gray-400 font-anton">
                     Phase 3
                   </time>
-                  <p class="mt-3 font-anton">
+                  <p class="mt-3 font-antonio">
                     Smart contracts expand to include complex funding models and
                     payment plans. Users can closely track project progress
                     using smart contracts. Enhanced voting options offer
@@ -69,7 +69,7 @@ export default function RoadMap() {
                   <time class="text-xs tracking-wide uppercase dark:text-gray-400 font-anton">
                     Phase 4
                   </time>
-                  <p class="mt-3 font-anton">
+                  <p class="mt-3 font-antonio">
                     Multi-language support enhances the platform's reach.
                     Ongoing security and performance improvements for smart
                     contracts. User feedback and data analysis drive continuous
@@ -83,7 +83,7 @@ export default function RoadMap() {
                   <time class="text-xs tracking-wide uppercase dark:text-gray-400 font-anton">
                     Phase 5
                   </time>
-                  <p class="mt-3 font-anton">
+                  <p class="mt-3 font-antonio">
                     Decentralized governance empowers DAO members to shape the
                     platform's future. The platform evolves with the consensus
                     of DAO members.

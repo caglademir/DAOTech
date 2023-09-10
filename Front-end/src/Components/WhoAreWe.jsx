@@ -11,14 +11,14 @@ export default function WhoAreWe({setIsOpen}) {
                         <h2 className='text-left text-4xl font-anton  text-sky-500'>
                             Shaping the Future of Communities Platform
                         </h2>
-                        <p className='text-3xl text-white text-left mt-6 font-anton  '>
+                        <p className='text-3xl text-white text-left mt-6 font-antonio  '>
                             DAOTech is a platform that enables users to come together to create community-focused DAOs (Decentralized Autonomous Organizations) in order to realize their dreams and foster innovation.
                         </p>
                         <div id="button" className="flex items-center justify-center float-left mt-6  ">
                             <Link to={'/createDao'}>
                             <button
                             
-                             className="flex items-center bg-gradient-to-r from-blue-500 to-blue-800 hover:bg-gradient-to-bl border-blue-400 text-gray-200 font-anton p-4 rounded-lg  ">
+                             className="flex items-center bg-gradient-to-r from-blue-500 to-blue-800 hover:bg-gradient-to-bl border-blue-400 text-gray-200 font-antonio p-4 rounded-lg  ">
                                 Create a Dao
                                
                             </button>

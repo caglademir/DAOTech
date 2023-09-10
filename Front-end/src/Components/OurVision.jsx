@@ -12,10 +12,10 @@ export default function OurVision() {
                     </div>
                     <div className='p-10 text-right'>
                         <h2 className=' text-9xl text-sky-200 font-anton'>Vision</h2>
-                        <p className='text-3xl text-gray-200 mt-8 font-anton'>
+                        <p className='text-3xl text-gray-200 mt-8 font-antonio'>
                         DAOTech aims to be a powerful tool for shaping the organizations 
                         and communities of the future. 
-                        <span className='text-sky-400 font-anton'>Our vision is to enable people to 
+                        <span className='text-sky-400 font-antonio'>Our vision is to enable people to 
                         collaborate in a more democratic, transparent, and participatory world.</span>
                          DAOTech seeks to support innovation worldwide by bringing together the 
                          strengths of communities and projects. <br></br> <br></br> 

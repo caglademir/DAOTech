@@ -22,7 +22,7 @@ export default function  PlatformFeatures () {
                                 class=" mb-2 text-2xl  leading-tight text-sky-300 font-anton">
                                 Rapid <br></br>DAO Creation
                             </h5>
-                            <p class=" mb-4 text-base text-neutral-600 dark:text-neutral-200 font-anton">
+                            <p class=" mb-4 text-base text-neutral-600 dark:text-neutral-200 font-antonio">
                             Users can rapidly create their own DAOs with simple tools. This allows them to guide their projects and bring their communities together.
                             </p>
                         </div>
@@ -38,7 +38,7 @@ export default function  PlatformFeatures () {
                                 class="mb-2 text-2xl leading-tight  text-sky-300 font-anton">
                                 Crowdfunding Supported by Smart Contracts
                             </h5>
-                            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200 font-anton">
+                            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200 font-antonio">
                             DAOs can initiate secure crowdfunding campaigns supported by smart contracts. Funds are collected and managed securely.
                             </p>
                         </div>
@@ -54,7 +54,7 @@ export default function  PlatformFeatures () {
                                 class="mb-2 text-2xl leading-tight  text-sky-300 font-anton">
                                 Transparent <br></br> Voting System
                             </h5>
-                            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200 font-anton">
+                            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200 font-antonio">
                             The platform provides users with a fair and transparent voting system for ideas, suggestions, and projects. Community members collectively determine the future of projects.
                             </p>
                         </div>
@@ -70,7 +70,7 @@ export default function  PlatformFeatures () {
                                 class="mb-2 text-2xl leading-tight  text-sky-300 font-anton">
                                 Effective Communication Platform
                             </h5>
-                            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200 font-anton">
+                            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200 font-antonio">
                             Integrated communication platform allows DAO members to collaborate efficiently in private spaces for idea exchange and project development.
                             </p>
                         </div>
@@ -86,7 +86,7 @@ export default function  PlatformFeatures () {
                                 class="mb-2 text-2xl leading-tight  text-sky-300 font-anton">
                                Engagement-Incentivizing Membership System
                             </h5>
-                            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200 font-anton">
+                            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200 font-antonio">
                             DAO membership can be earned through contributions or by purchasing shares. This encourages a more active and participatory community.
                             </p>
                         </div>
