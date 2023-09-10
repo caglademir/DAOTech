@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Modal3Dao({ setIsOpen2 , setIsOpen4}) {
+export default function Modal3Dao({ setIsOpen2 , setIsOpen4 , setDao}) {
 
   const prevPage = () => {
     setIsOpen2(false);
@@ -33,6 +33,7 @@ export default function Modal3Dao({ setIsOpen2 , setIsOpen4}) {
             </label></div>
             <div class="flex items-start m-2">
             <input
+              onChange={ (e) =>setDao((prev) => ({ ...prev, wallet: e.target.value }))}
               type="text"
               id="base-input"
               placeholder="wallet"

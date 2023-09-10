@@ -7,6 +7,10 @@ export default function Modal1({
 }) {
   const handleNextClick = () => {
   
+    if (!dao.name || !dao.symbol) {
+      alert("Lütfen tüm değerleri doldurunuz.");
+      return;
+    }
     setIsOpen1(true);
   };
 

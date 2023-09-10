@@ -5,7 +5,7 @@ export default function Modal2({
   setIsOpen2,
   setIsOpen3,
   isOpen3,
- setDao
+  setDao,
 }) {
   const [options, setOptions] = useState();
 
@@ -19,11 +19,16 @@ export default function Modal2({
   };
 
   const nextPage = (e) => {
+    if (!options ) {
+      alert("Lütfen tüm değerleri doldurunuz.");
+      return;
+    }
+
     console.log(options);
     if (options === "CA") {
       setIsOpen2(true);
-    } else if (options === 'US') {
-      setIsOpen3(true)
+    } else if (options === "US") {
+      setIsOpen3(true);
       console.log(isOpen3);
     }
   };
@@ -56,7 +61,9 @@ export default function Modal2({
         </div>
         <div class="flex items-start">
           <input
-            onChange={(e) => setDao((prev)=>({...prev,numberOfMembers:e.target.value}))}
+            onChange={(e) =>
+              setDao((prev) => ({ ...prev, numberOfMembers: e.target.value }))
+            }
             type="number"
             id="base-input"
             placeholder="Number of Members"
@@ -91,7 +98,7 @@ export default function Modal2({
                 d="M13 5H1m0 0L5 1M1 5l4 4"
               />
             </svg>
-             &nbsp; Back 
+            &nbsp; Back
           </button>
         </div>
 

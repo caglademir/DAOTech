@@ -71,6 +71,7 @@ const CreateDao = () => {
               setIsOpen={setIsOpen}
               setIsOpen2={setIsOpen2}
               setIsOpen4={setIsOpen4}
+              setDao={setAllDaoInformation}
             />
           </Modal>
         )}
