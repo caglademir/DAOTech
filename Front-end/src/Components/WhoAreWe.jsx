@@ -7,7 +7,7 @@ export default function WhoAreWe({setIsOpen}) {
             <div className='p-28 mt-4 '>
                 <div className='grid grid-cols-2 gap-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 '>
                     <div className='p-14'>
-                        <h2 className='text-left text-9xl font-medium text-sky-200'>DAOTech: </h2>
+                        <h2 className='text-left text-9xl font-medium text-sky-200 font-anton '>DAOTech </h2>
                         <h2 className='text-left text-4xl font-medium text-sky-500'>
                             Shaping the Future of Communities Platform
                         </h2>

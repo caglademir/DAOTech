@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'anton': ['Anton', 'sans-serif'], // 'anton' adında bir sınıf ekledik. İsmi istediğiniz gibi değiştirebilirsiniz.
+      },
+    },
   },
   plugins: [],
 }
