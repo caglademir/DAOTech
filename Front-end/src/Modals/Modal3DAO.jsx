@@ -10,8 +10,8 @@ export default function Modal3Dao({ setIsOpen2 , setIsOpen4 , setDao}) {
   }  
 
   return (
-    <div>
-       <div className="text-3xl font-bold text-gray-200 ml-20 mb-2">
+    <div className="">
+       <div className="text-3xl font-bold text-blue-200 ml-20 mb-2 font-antonio">
         DAO Members:
       </div>
       <div className="bg-white/20 p-4 ml-20 mr-20 rounded-lg">
@@ -27,7 +27,7 @@ export default function Modal3Dao({ setIsOpen2 , setIsOpen4 , setDao}) {
             <div className="flex justify-start">
             <label
               for="base-input"
-              class="block m-2 text-2xl font-bold text-sky-200 "
+              class="block m-2 text-2xl font-bold text-blue-300 font-antonio"
             >
               Wallet
             </label></div>
@@ -38,8 +38,8 @@ export default function Modal3Dao({ setIsOpen2 , setIsOpen4 , setDao}) {
               id="base-input"
               placeholder="wallet"
               class="bg-white/20 border-2 
-                  border-sky-200 text-md rounded-lg 
-                  text-stone-200 block w-full p-2.5"/>
+                  border-blue-300 text-md rounded-lg 
+                  text-stone-200 block w-full p-2.5 font-antonio"/>
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@ export default function Modal3Dao({ setIsOpen2 , setIsOpen4 , setDao}) {
             type="button"
             class="w-full text-white bg-blue-700 hover:bg-blue-800 
        focus:ring-4 focus:outline-none focus:ring-blue-300 
-       font-medium rounded-lg text-md px-5 py-2.5 text-center 
+       font-antonio rounded-lg text-md px-5 py-2.5 text-center 
        inline-flex items-center justify-center"
           >
             <svg
@@ -79,7 +79,7 @@ export default function Modal3Dao({ setIsOpen2 , setIsOpen4 , setDao}) {
             type="button"
             class="w-full text-white bg-blue-700 hover:bg-blue-800 
             focus:ring-4 focus:outline-none focus:ring-blue-300 
-            font-medium rounded-lg text-md px-5 py-2.5 text-center 
+            font-antonio rounded-lg text-md px-5 py-2.5 text-center 
             inline-flex items-center justify-center"
           >
             Next Step

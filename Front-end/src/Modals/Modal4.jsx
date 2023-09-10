@@ -26,7 +26,7 @@ setDao
             <div className="flex justify-center">
               <label
                 for="base-input"
-                class="block m-2 text-2xl font-bold text-blue-900 "
+                class="block m-2 text-2xl font-antonio text-blue-300 "
               >
                 Contrat Address
               </label>
@@ -39,8 +39,8 @@ setDao
                 id="base-input"
                 placeholder="Contrat Address"
                 class="bg-white/20 border-2 
-                  border-blue-900 text-md rounded-lg 
-                  text-stone-200 block w-full p-2.5"
+                  border-blue-300 text-md rounded-lg 
+                  text-stone-200 block w-full p-2.5 font-antonio"
               />
             </div>
           </div>
@@ -48,7 +48,7 @@ setDao
             <div className="flex justify-center">
               <label
                 for="base-input"
-                class="block m-2 text-2xl font-bold text-blue-900 "
+                class="block m-2 text-2xl font-antonio text-blue-400 "
               >
                 Collection Name
               </label>
@@ -60,8 +60,8 @@ setDao
                 id="base-input"
                 placeholder="Collection Name"
                 class="bg-white/20 border-2 
-                  border-blue-900 text-md rounded-lg 
-                  text-stone-200 block w-full p-2.5"
+                  border-blue-400 text-md rounded-lg 
+                  text-stone-200 block w-full p-2.5 font-antonio"
               />
             </div>
           </div>
@@ -74,7 +74,7 @@ setDao
             type="button"
             class="w-full text-white bg-blue-700 hover:bg-blue-800 
        focus:ring-4 focus:outline-none focus:ring-blue-300 
-       font-medium rounded-lg text-md px-5 py-2.5 text-center 
+       font-antonio rounded-lg text-md px-5 py-2.5 text-center 
        inline-flex items-center justify-center"
           >
             <svg
@@ -105,7 +105,7 @@ setDao
             type="button"
             class="w-full text-white bg-blue-700 hover:bg-blue-800 
             focus:ring-4 focus:outline-none focus:ring-blue-300 
-            font-medium rounded-lg text-md px-5 py-2.5 text-center 
+            font-antonio rounded-lg text-md px-5 py-2.5 text-center 
             inline-flex items-center justify-center"
           >
             Next Step

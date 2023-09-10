@@ -20,7 +20,7 @@ function App() {
     <>
       <div className="h-full bg-gradient-to-r from-gray-950 via-sky-800 to-gray-950">
         <div className="bg-cover bg-no-repeat bg-center bg-[url(/src/img/welcome.png)]">
-          <div className=""><NavBar></NavBar></div>
+          <NavBar></NavBar>
 
           <WhoAreWe ></WhoAreWe>
         </div>

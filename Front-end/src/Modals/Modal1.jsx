@@ -8,7 +8,7 @@ export default function Modal1({
   const handleNextClick = () => {
   
     if (!dao.name || !dao.symbol) {
-      alert("Lütfen tüm değerleri doldurunuz.");
+      alert("Please fill in all inputs!");
       return;
     }
     setIsOpen1(true);
@@ -40,14 +40,14 @@ export default function Modal1({
                   d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
                 />
               </svg>
-              <p class="mb-2 text-sm text-center text-gray-200 ">
-                <span class="font-semibold">Click to upload</span> or drag and
+              <p class="mb-2 text-sm text-center text-gray-200 font-antonio ">
+                <span class="font-antonio">Click to upload</span> or drag and
                 drop
               </p>
             </div>
             <input id="dropzone-file" type="file" class="hidden" />
           </label>
-          <div class="ml-4 space-y-0.5 text-lg font-bold text-blue-400 text-left">
+          <div class="ml-4 space-y-0.5 text-lg font-bold text-blue-400 text-left font-antonio">
             <div>{dao.name}</div>
             <div class=" text-gray-500 dark:text-blue-300">{dao.symbol}</div>
           </div>
@@ -58,7 +58,7 @@ export default function Modal1({
         <div class="m-2">
           <label
             for="base-input"
-            class="block mb-2 text-lg font-bold text-blue-500 "
+            class="block mb-2 text-lg font-bold text-blue-400 font-antonio "
           >
             DAO Symbol
           </label>
@@ -67,8 +67,8 @@ export default function Modal1({
             type="text"
             id="base-input"
             placeholder="DAO"
-            class="bg-white/25 border-2 border-blue-500 text-md rounded-lg 
-                                              text-stone-200 block w-full p-2.5 "
+            class="bg-white/25 border-2 border-blue-400 text-md rounded-lg 
+                   font-antonio   text-stone-200 block w-full p-2.5 "
           />
         </div>
       </div>
@@ -76,7 +76,7 @@ export default function Modal1({
         <div class="m-2">
           <label
             for="base-input"
-            class="block mb-2 text-lg font-bold text-blue-500 "
+            class="block mb-2 text-lg font-bold text-blue-300 font-antonio "
           >
             DAO Name
           </label>
@@ -85,8 +85,8 @@ export default function Modal1({
             type="text"
             id="base-input"
             placeholder="DAO Tech"
-            class="bg-white/25 border-2 border-blue-500 text-md rounded-lg 
-                                              text-stone-200 block w-full p-2.5 "
+            class="bg-white/25 border-2 border-blue-300 text-md rounded-lg 
+                  font-antonio  text-stone-200 block w-full p-2.5 "
           />
         </div>
       </div>
@@ -95,8 +95,8 @@ export default function Modal1({
           onClick={handleNextClick}
           type="button"
           class="w-[40%] text-white bg-blue-700 hover:bg-blue-800 
-                                    font-medium rounded-lg text-md px-5 py-2.5 text-center 
-                                    inline-flex items-center justify-center float-right mt-4 mb-6 mr-20"
+                font-antonio rounded-lg text-md px-5 py-2.5 text-center 
+                inline-flex items-center justify-center float-right mt-4 mb-6 mr-20"
         >
           Next Step
           <svg

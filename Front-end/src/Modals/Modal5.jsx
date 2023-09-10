@@ -26,12 +26,12 @@ export default function Modal5({ allDaoInformation, setIsOpen5, setIsOpen4 }) {
             <div className="flex justify-start">
               <label
                 for="base-input"
-                class="block m-2 text-2xl font-bold text-blue-400 "
+                class="block m-2 text-2xl font-antonio text-blue-300 "
               >
                 DAO SYMBOL
               </label>
             </div>
-            <div class="flex items-start m-2 bg-white/20 rounded-lg p-2 text-gray-200">
+            <div class="flex items-start m-2 bg-white/20 rounded-lg p-2 text-gray-200 font-antonio">
               DAO Symbol
             </div>
           </div>
@@ -39,12 +39,12 @@ export default function Modal5({ allDaoInformation, setIsOpen5, setIsOpen4 }) {
             <div className="flex justify-start">
               <label
                 for="base-input"
-                class="block m-2 text-2xl font-bold text-blue-400 "
+                class="block m-2 text-2xl font-antonio text-blue-400 "
               >
                 DAO NAME
               </label>
             </div>
-            <div class="flex items-start m-2 bg-white/20 rounded-lg p-2 text-gray-200">
+            <div class="flex items-start m-2 bg-white/20 rounded-lg p-2 text-gray-200 font-antonio">
               {allDaoInformation.name}
             </div>
           </div>
@@ -52,12 +52,12 @@ export default function Modal5({ allDaoInformation, setIsOpen5, setIsOpen4 }) {
             <div className="flex justify-start">
               <label
                 for="base-input"
-                class="block m-2 text-2xl font-bold text-blue-400 "
+                class="block m-2 text-2xl font-antonio text-blue-300 "
               >
                 DAO MEMBERS
               </label>
             </div>
-            <div class="flex items-start m-2 bg-white/20 rounded-lg p-2 text-gray-200">
+            <div class="flex items-start m-2 bg-white/20 rounded-lg p-2 text-gray-200 font-antonio">
               DAO Members
             </div>
           </div>
@@ -65,13 +65,13 @@ export default function Modal5({ allDaoInformation, setIsOpen5, setIsOpen4 }) {
       </div>
 
       <div className="grid grid-cols-2 justify-stretch mt-[10%]">
-        <div className="bg-transparent  rounded-lg ml-[16%] justify-self-start ">
+        <div className="bg-transparent rounded-lg ml-[16%] justify-self-start ">
           <button
             onClick={() => setIsOpen5(false)}
             type="button"
             class="w-full text-white bg-blue-700 hover:bg-blue-800 
        focus:ring-4 focus:outline-none focus:ring-blue-300 
-       font-medium rounded-lg text-md px-5 py-2.5 text-center 
+       font-antonio rounded-lg text-md px-5 py-2.5 text-center 
        inline-flex items-center justify-center"
           >
             <svg
@@ -101,7 +101,7 @@ export default function Modal5({ allDaoInformation, setIsOpen5, setIsOpen4 }) {
             type="button"
             class="w-full text-white bg-blue-700 hover:bg-blue-800 
             focus:ring-4 focus:outline-none focus:ring-blue-300 
-            font-medium rounded-lg text-md px-5 py-2.5 text-center 
+            font-antonio rounded-lg text-md px-5 py-2.5 text-center 
             inline-flex items-center justify-center"
           >
               Create DAO
