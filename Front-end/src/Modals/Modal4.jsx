@@ -23,7 +23,7 @@ setDao
           </div>
 
           <div class=" grid col-rows-2 mt-4">
-            <div className="flex justify-center">
+            <div className="flex ">
               <label
                 for="base-input"
                 class="block m-2 text-2xl font-antonio text-blue-300 "
@@ -45,7 +45,7 @@ setDao
             </div>
           </div>
           <div class=" grid col-rows-2 mt-4">
-            <div className="flex justify-center">
+            <div className="flex">
               <label
                 for="base-input"
                 class="block m-2 text-2xl font-antonio text-blue-400 "
