@@ -8,7 +8,7 @@ export default function  PlatformFeatures () {
 
             <div className='p-16'>
 
-                <h2 className='text-center text-9xl font-medium text-sky-200 p-4 mb-10'>Platform Features</h2>
+                <h2 className='text-center text-9xl font-medium text-sky-200 p-4 mb-10 font-anton'>Platform Features</h2>
 
                 <div className='grid grid-cols-5 xl:grid-cols-5 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-2'>
                     <div
@@ -19,10 +19,10 @@ export default function  PlatformFeatures () {
                             alt="" />
                         <div class="p-6">
                             <h5
-                                class=" mb-2 text-2xl font-bold leading-tight text-gray-100">
+                                class=" mb-2 text-2xl  leading-tight text-gray-100 font-anton">
                                 Rapid <br></br>DAO Creation
                             </h5>
-                            <p class=" mb-4 text-base text-neutral-600 dark:text-neutral-200">
+                            <p class=" mb-4 text-base text-neutral-600 dark:text-neutral-200 font-anton">
                             Users can rapidly create their own DAOs with simple tools. This allows them to guide their projects and bring their communities together.
                             </p>
                         </div>
@@ -35,10 +35,10 @@ export default function  PlatformFeatures () {
                             alt="" />
                         <div class="p-6">
                             <h5
-                                class="mb-2 text-2xl font-bold leading-tight text-gray-100">
+                                class="mb-2 text-2xl leading-tight text-gray-100 font-anton">
                                 Crowdfunding Supported by Smart Contracts
                             </h5>
-                            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+                            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200 font-anton">
                             DAOs can initiate secure crowdfunding campaigns supported by smart contracts. Funds are collected and managed securely.
                             </p>
                         </div>
@@ -51,10 +51,10 @@ export default function  PlatformFeatures () {
                             alt="" />
                         <div class="p-6">
                             <h5
-                                class="mb-2 text-2xl font-bold leading-tight text-gray-100">
+                                class="mb-2 text-2xl leading-tight text-gray-100 font-anton">
                                 Transparent <br></br> Voting System
                             </h5>
-                            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+                            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200 font-anton">
                             The platform provides users with a fair and transparent voting system for ideas, suggestions, and projects. Community members collectively determine the future of projects.
                             </p>
                         </div>
@@ -67,10 +67,10 @@ export default function  PlatformFeatures () {
                             alt="" />
                         <div class="p-6">
                             <h5
-                                class="mb-2 text-2xl font-bold leading-tight text-gray-100">
+                                class="mb-2 text-2xl leading-tight text-gray-100 font-anton">
                                 Effective Communication Platform
                             </h5>
-                            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+                            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200 font-anton">
                             Integrated communication platform allows DAO members to collaborate efficiently in private spaces for idea exchange and project development.
                             </p>
                         </div>
@@ -83,10 +83,10 @@ export default function  PlatformFeatures () {
                             alt="" />
                         <div class="p-6">
                             <h5
-                                class="mb-2 text-2xl font-bold leading-tight text-gray-100">
+                                class="mb-2 text-2xl leading-tight text-gray-100 font-anton">
                                Engagement-Incentivizing Membership System
                             </h5>
-                            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+                            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200 font-anton">
                             DAO membership can be earned through contributions or by purchasing shares. This encourages a more active and participatory community.
                             </p>
                         </div>

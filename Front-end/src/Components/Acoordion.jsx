@@ -28,7 +28,7 @@ export default function
   }
   return (
     <div id="FAQ" className='p-8'>
-      <h2 className='text-center text-9xl font-medium text-sky-200 mt-16'>Frequently Asked Questions</h2>
+      <h2 className='text-center text-9xl font-anton text-sky-200 mt-16 '>Frequently Asked Questions</h2>
 
 
       <div id="accordion-collapse" data-accordion="collapse" className="p-24">
@@ -45,9 +45,9 @@ export default function
             data-accordion-target="#accordion-collapse-body-1"
             aria-expanded="true"
 
-            aria-controls="accordion-collapse-body-1">
+            aria-controls="accordion-collapse-body-1 ">
 
-            <span>What is DAOTech and why was it established?</span>
+            <span className="font-anton">What is DAOTech and why was it established?</span>
             <svg
               data-accordion-icon
               class="w-3 h-3 rotate-180 shrink-0"

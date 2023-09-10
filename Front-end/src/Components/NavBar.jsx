@@ -20,37 +20,37 @@ export default function NavBar({ setIsOpen }) {
           <div className="text-center text-xl lg:flex-grow">
             <a
               href="#whoAreWe"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 mr-6 "
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 mr-6 font-anton "
             >
               Who are we?
             </a>
             <a
               href="#platformFeatures"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 mr-6"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 mr-6 font-anton"
             >
               Platform Features
             </a>
             <a
               href="#ourVision"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 mr-6"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 mr-6 font-anton"
             >
               Our Vision
             </a>
             <a
               href="#roadMap"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 mr-6"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 mr-6 font-anton"
             >
               RoadMap
             </a>
             <a
               href="#FAQ"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 mr-6"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 mr-6 font-anton"
             >
               FAQ
             </a>
             <a
               href="#contactUs"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 mr-6"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-sky-500 mr-6 font-anton"
             >
               Contact Us
             </a>
